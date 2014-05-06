@@ -1,0 +1,1 @@
+puts IO.read('input.txt') == IO.read('output.txt')

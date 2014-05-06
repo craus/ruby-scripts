@@ -1,0 +1,17 @@
+e=Encoding::IBM866
+puts 'Hello, world!'; exit if !%w(gen perm repl xor).include? (c=ARGV[0])
+if (c=c[0])=='g'
+  m=((t=(ARGV[1]||'p')[0])=='r' ? (0..255) : (0...(ARGV[3]||'13').to_i))
+  IO.write ARGV[2] || 'key', ((x=(t=='x')) ? m.map{rand(256).chr(e)} : m.to_a.shuffle).join(x ? '' : ' ')
+else
+  ARGV.pop if un = (ARGV.last=='back')
+  IO.write ARGV[3]||ARGV[1]||'x', begin
+    p,s = IO.read(ARGV[2]||'key'),IO.read(ARGV[1]||'x')
+    p = p.split.map(&:to_i) if c!='x'
+    p = (0...p.size).to_a.map{|i| p.index i} if un
+    r = c=='p' ? 
+      (s + 0.chr * (-s.size % p.size)).scan(Regexp.new('.'*p.size,4)).map{|a| p.map{|x| a[x]}}.join : 
+      s.split(//).map{|d| i||=-1; i=(i+1)%p.size; (c=='r' ? p[d.ord] : d.ord^p[i].ord).chr(e)}.join
+    un && c=='p' ? r.split(0.chr)[0] : r
+  end
+end

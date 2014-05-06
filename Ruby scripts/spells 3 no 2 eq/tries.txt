@@ -1,0 +1,18 @@
+aa - a
+abaa - a
+abab - ab
+abacaa - a
+abacabaa - a
+abacabab - ab
+abacabac - abac
+abacabb - b
+abacabcaa - a
+abacabcab - cab
+abacabcaca - ca
+abacabcacbaa - a
+abacabcacbaba - ba
+abacabcacbabb - b
+abacabcacbabcaa - a
+abacabcacbabcabaa - a
+abacabcacbabcabab - ab
+abacabcacbabcabac

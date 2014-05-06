@@ -1,0 +1,10 @@
+use std
+main is sout remove linein 'A'
+
+remove s c is 
+  if not s
+  then nil
+  else
+    if eq top s c
+    then remove pop s c
+    else pair remove pop s c top s

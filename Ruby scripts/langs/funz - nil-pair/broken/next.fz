@@ -1,0 +1,21 @@
+use std
+next c is 
+  if eq c 0
+  then pair 1 0
+  else if eq c 1
+  then pair 0 1
+  else next_ c next second c
+  
+next_ c nextsecond is
+  if not second nextsecond
+  then pair pair first c first nextsecond 0
+  else next_0 next first c first nextsecond
+
+next_0 nextfirst firstnextsecond is
+  pair
+    pair first nextfirst firstnextsecond
+    second nextfirst
+    
+main is cout next 'A'
+       
+  

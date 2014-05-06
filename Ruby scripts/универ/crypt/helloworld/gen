@@ -1,0 +1,2 @@
+IO.write ARGV[1] || 'key', (ARGV[0][0]=='p' ? (0...(ARGV[2]||'13').to_i) : (0..255)).to_a.shuffle.join(' ') if %w(perm repl).include? ARGV[0]
+puts rand(6)+1

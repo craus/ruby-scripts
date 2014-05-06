@@ -1,0 +1,90 @@
+Спецификация языка
+
+Есть встроенные константы 0..255 и nil.
+Есть встроенные функции getc, putc, if, pair, first, second и eq.
+Есть ключевые слова is (=), the, delegate и apply. Возможно, также есть function и to.
+Есть директива компилятора use.
+
+Поиск идентификатора ведётся вверх, пока не найдёт, затем вниз.
+
+Примеры программ.
+
+#syms.fz
+'a' is 92
+'b' is 93
+...
+'z' is 115
+'A' is 65
+...
+'\n' is 10
+'\s' is 32
+
+#bool.fz
+true is 1
+false is 0
+then x is x
+else x is x
+both x y is if x then y else false
+either x y is if x then true else y
+not x is if x then false else true
+neither x y is if x then false else not y
+
+#helloworld.fz
+main is 
+  both putc 'H'
+	both putc 'e'
+	both putc 'l'
+	both putc 'l'
+	both putc 'o'
+	both putc ','
+	both putc '\s'
+	both putc 'w'
+	both putc 'o'
+	both putc 'r'
+	both putc 'l'
+	both putc 'd'
+	both putc '!'
+	putc '\n'
+	
+#clone.fz
+f c is if eq c nil then true else both putc c clone
+clone is f read
+main is clone
+
+#reverse.fz
+f c is if eq c nil then true else both reverse putc c
+reverse is f read
+main is clone
+
+#list.fz
+list is pair
+head is first
+tail is second
+empty_list is nil
+empty x is eq x nil
+
+#int.fz
+zero is list 0 empty_list
+one is list 1 empty_list
+norm n is 
+  if empty n 
+		then zero 
+		else 
+			function h nt to 
+				list h 
+					if eq zero nt 
+						then empty_list 
+						else nt 
+			head n 
+			norm tail n
+			
+inc n is if empty n then one else list not head n if head n then inc tail n else tail n
+dec n is norm if empty n then nil else 
+
+#repeat.fz
+repeat n f is 
+
+#reverse string array.fz
+
+
+

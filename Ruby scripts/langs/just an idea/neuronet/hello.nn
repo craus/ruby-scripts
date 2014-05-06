@@ -1,0 +1,5 @@
+main = write 'h' ello
+ello done = write 'e' llo
+llo done = write 'l' lo
+lo done = write 'l' o
+o done = write 'o'

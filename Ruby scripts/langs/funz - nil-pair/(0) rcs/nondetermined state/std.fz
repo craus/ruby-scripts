@@ -1,0 +1,84 @@
+#01
+0 is nil
+1 is pair nil nil
+
+#bools
+true is 1
+false is 0
+then x is x
+else x is x
+both x y is if x then y else false
+either x y is if x then true else y
+not x is if x then false else true
+neither x y is if x then false else not y
+
+#chars
+char b0 b1 b2 b3 b4 b5 b6 b7 is pair pair pair b0 b1 pair b2 b3 pair pair b4 b5 pair b6 b7 
+cin is char bin bin bin bin bin bin bin bin
+bout2 x is both bout first x bout second x
+bout4 x is both bout2 first x bout2 second x
+cout c is both bout4 first c bout4 second c
+
+#ascii
+\n is char 0 0 0 0 1 0 1 0
+\space is char 0 0 1 0 0 0 0 0
+'A' is char 0 1 0 0 0 0 0 1
+'B' is char 0 1 0 0 0 0 1 0
+'C' is char 0 1 0 0 0 0 1 1
+
+#lists
+list head tail is pair head tail
+empty_list is nil
+empty list is not list
+head list is first list
+tail list is second list
+reverse_ list result is if empty list then result else reverse_ tail list pair head list result
+reverse list is reverse_ list empty_list
+
+#strings
+linein_ c is if eq c \n then empty_list else list c linein
+linein is linein_ cin 
+sout s is if s then both cout head s sout tail s else 1
+split s c is 
+  if empty s
+  then empty_list
+  else if empty tail s
+  then 
+    list 
+      if eq head s c 
+      then empty_list 
+      else list head s nil 
+      nil
+  else
+    if eq head s c
+    then list empty_list split tail s c
+    else split_ s c split tail s c
+split_ s c splittail is
+  list
+    list head s head splittail
+    tail splittail
+remove s c is 
+  if not s
+  then nil
+  else
+    if eq head s c
+    then remove tail s c
+    else list head s remove tail s c
+  
+  
+#equation
+eq x y is 
+  if x 
+    if y 
+    then both 
+      eq first x first y 
+      eq second x second y
+    else false
+  else not y
+  
+
+  
+
+
+
+

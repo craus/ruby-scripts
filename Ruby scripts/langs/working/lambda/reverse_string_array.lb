@@ -1,0 +1,81 @@
+if = (
+function = (
+then = )(
+else = )(
+end = )
+
+is = 
+
+i = (\x x)
+
+get_1_2 = (\x\y x)
+get_2_2 = (\x\y y)
+true = get_1_2
+false = get_2_2
+
+
+pair = (\x\y\z zxy)
+
+first = (\p p get_1_2)
+second = (\p p get_2_2)
+
+char = pair
+write_char = \c c first i
+read_char = \c c second i
+
+'a' = char .a ?a
+'b' = char .b ?b
+space = char _ ~
+alphabet = ['a', 'b', space]
+
+
+
+list_opened = function \list \list_opened \list_waiting
+  \element list_waiting (pair \element \list) list_opened list_waiting
+end
+  
+list_waiting = function \list \list_opened \list_waiting
+  \command 
+    if command is , then
+      list_waiting list list_opened list_waiting
+    else if command is ]_part1 then
+      list_closing list
+    else 
+      tail list
+    end
+end
+
+list_closing = function \list
+  \skipped_close2
+    list
+end
+  
+[ = (list_opened empty_list list_opened list_waiting
+] = ]_part1 ]_part2
+
+link = pair
+list = pair # это неверно, только непустой лист - пара
+head = first
+tail = second
+
+empty_list = function \f true
+
+split = function \list \separator
+(\recursion recursion recursion)
+function \self 
+  if empty list then
+    [empty_list]
+  else 
+    function \splitted_tail
+      if equal (head list) separator then
+        link empty_list splitted_tail
+      else 
+        link (link (head list) (head splitted_tail)) tail splitted_tail
+      end
+    end (self (tail list) separator self)
+  end
+end)
+
+split = ((\list \separator \split split list separator split) split)
+
+each write (reverse (split (readstring alphabet) space)) 

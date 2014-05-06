@@ -1,0 +1,85 @@
+#get
+	get_1_2 = (\x\y x)
+	get_2_2 = (\x\y y)
+	
+#isk
+  i = (\x x)
+	s = (\x\y\z xz(yz))
+	k = (\x\y y)
+
+#bool
+	true = get_1_2
+	false = get_2_2
+	both = (\x\y x y false)
+	either = (\x\y x true y)
+	not = (\x x false true)
+
+#if
+	if = (
+	then = )(
+	else = )(
+	end = )
+	# condition ? if_true : if_false
+		? =
+		: =
+
+
+#function
+	function = (
+	
+#recursive
+  recursive = (\f f f)
+
+#program
+
+read_char = function \x
+	if ?a then
+	  pair true .a
+	else
+end
+
+read_string = recursive function \read_string \string
+  function \x
+	  if first x then
+		  read_string (pair (second x) string)
+		else
+		  pair string (second x)
+		end
+	end
+	(read_char i)
+end
+
+read_array = recursive function \read_array \array
+  function \x
+	  if first x then
+		  read_array (pair (second x) array)
+		else
+			pair (second x) array
+		end		
+	end 
+	(read_string [])
+end
+		
+main = write_array (read_array [])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+	

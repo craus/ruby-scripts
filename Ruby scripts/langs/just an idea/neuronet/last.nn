@@ -1,0 +1,25 @@
+main = read remember *x 
+remember = left remember.1
+remember.1 done = remember.2
+remember.2 'a' = remember.3 *'a'
+remember.2 'b' = remember.3 *'b'
+remember.2 'c' = remember.3 *'c'
+remember.2 eof = write x
+remember.3 = right remember.4
+remember.4 done = link xlink remember.5
+remember.5 done = unassoc remember.6
+remember.6 done = link xlink remember.7
+remember.7 done = assoc remember.8
+remember.8 done = main
+*x : x
+xlink : x = '#'
+
+# *x - специальная вершина - образ вершины. Чтобы объявить такую в программе, надо ставить её, двоеточие, и чей образ.
+# Для каждой встроенной вершины есть её образ - например, для 'a' он называется *'a'
+# left <образ вершины> = done - добавляет вершину, чей образ был назван, к левой части будущей связи
+# right <образ вершины> = done - то же, к правой части
+# xlink - специальная вершина - образ связи. Чтобы объявить такую в программе, надо ставить её, двоеточие, и описание связи.
+# link <образ связи> = done - запоминает связь, образ который был назван
+# unassoc = done - уничтожает запомненную связь
+# assoc = done - создаёт новую связь из left и right, ассоциирует образ запомненной связи с этой связью
+

@@ -1,0 +1,11 @@
+def read q
+	ARGV.clear
+	puts "listening till #{q}" 
+	s = ''; 
+	while (x=gets) != q+"\n" do 
+		s += x 
+	end
+	s
+end
+IO.write file=ARGV[0], ARGV[2] ? read(ARGV[2]) : (ARGV[1] || begin ARGV.clear; gets end)
+puts "File #{file} saved."

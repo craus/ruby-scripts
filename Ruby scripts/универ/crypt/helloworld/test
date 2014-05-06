@@ -1,0 +1,1 @@
+puts [3,2,9,2,7,2].each_with_object('') {|i, a| a << (i*2).to_s }

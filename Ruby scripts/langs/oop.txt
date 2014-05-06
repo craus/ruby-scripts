@@ -1,0 +1,58 @@
+object 
+class 
+object.class = Object 
+Object.class = Class
+Class.class = Class
+class.class = Attribute
+Attribute.class = Class
+Attribute.parent = Object
+Class.parent = Object
+parent.class = Attribute
+Object.parent = null
+null.class = Object
+Object.attributes = {class}
+attributes.class = Attribute
+Class.attributes = {parent, attributes}
+{class}.class = Set<Attribute>
+Set<Attribute>.parent = Object
+{parent, attributes}.class = Set<Attribute>
+Attribute.attributes = {type}
+class.type = Class
+parent.type = Class
+attributes.type = Set<Attribute>
+object.parent = undefined
+undefined.class = Object
+object.object = undefined
+attributes.attributes = undefined
+type.class = Attribute
+type.parent = undefined
+Set<Attribute>.class = TemplateClass
+TemplateClass.class = Class
+TemplateClass.parent = Class
+TemplateClass.attributes = {types, template}
+types.class = Attribute
+types.type = Vector<Class>
+Vector<Class> = TemplateClass
+Set<Attribute>.types = <Attribute>
+<Attribute>.class = Vector<Class>
+Set<Attribute>.template = Set
+Vector<Class>.template = Vector
+Set.class = Template
+Vector.class = Template
+Template.class = Class
+
+Единственный способ хранить информацию - это ассоциировать с некоторым атрибутом некоторого объекта ещё какой-то объект.
+Последний называется значением этого атрибута того объекта.
+value(object, class, Class).
+value(Object, class, Class).
+и так далее.
+Известно, что
+value(x, class, Attribute) if value(_, x, _). - только атрибут может иметь значение
+value(x, class, class(x))
+
+
+
+
+
+
+

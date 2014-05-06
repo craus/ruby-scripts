@@ -1,0 +1,6 @@
+readed 1 = readed 0
+reading: read x
+goto readed x
+readed 0: write x
+goto reading
+readed nil: exit

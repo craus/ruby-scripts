@@ -1,0 +1,15 @@
+0 is nil
+1 is pair nil nil
+
+both x y is if x y 0
+
+main is 
+  both bout 0
+  
+  both bout 1
+  both bout 0
+  both bout 0
+  both bout 0
+  both bout 0
+  both bout 0
+       bout 1

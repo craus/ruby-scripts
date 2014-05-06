@@ -1,0 +1,3 @@
+use std
+main is sout remove linein 'A'
+

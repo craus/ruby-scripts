@@ -1,0 +1,18 @@
+(\give\program program give) (\x\y y x) \give # now give = (\x\y y x)
+
+give (\x\y x) \true # now true = (\x\y x)
+give (\x\y y) \false # now false = (\x\y y)
+
+give (\x\r x (r false) (r true)) \not
+give (\x\y\r x (r y) (r false)) \and
+give (\x\y\r x (r true) (r y)) \or
+
+give (\x\y\r r (\command\r command (r x) (r y))) \pair
+give true \first
+give false \second
+
+pair true true \ptt
+ptt first
+
+
+

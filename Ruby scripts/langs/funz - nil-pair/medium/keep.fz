@@ -1,0 +1,19 @@
+use std
+  
+keep_ a s is 
+  if eq s pair nil 'C'
+  then 1
+  else
+    both cout if in a s then 'A' else 'B'
+    both cout 'C'
+    keep push_back a s
+keep a is keep_ a linein
+
+in a s is 
+  both 
+    a
+    either
+      eq top a s
+      in pop a s
+    
+main is keep nil

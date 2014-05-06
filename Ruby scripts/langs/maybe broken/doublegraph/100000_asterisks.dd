@@ -1,0 +1,51 @@
+next 0 = 1
+next 1 = 2
+next 2 = 3
+next 3 = 4
+next 4 = 5
+next 5 = 6
+next 6 = 7
+next 7 = 8
+next 8 = 9
+next 9 = 0
+
+dec 0 = 9
+dec 1 = 0
+dec 2 = 1
+dec 3 = 2
+dec 4 = 3
+dec 5 = 4
+dec 6 = 5
+dec 7 = 6
+dec 8 = 7
+dec 9 = 8
+
+dec_next? 0 = true
+
+x=100000:
+  set x value ` 0 ` ` ` 0
+  set x value ` 1 ` ` ` 0
+  set x value ` 2 ` ` ` 0
+  set x value ` 3 ` ` ` 0
+  set x value ` 4 ` ` ` 0
+  set x value ` 5 ` ` ` 1
+  
+dec(x[0]):
+  set ` ` case true ` ` ` dec(x[1])
+  set nil =
+  set ` ` n
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

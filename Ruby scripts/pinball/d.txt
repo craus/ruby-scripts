@@ -1,0 +1,107 @@
+#pragma comment(linker, "/STACK:268435456")
+#define _CRT_SECURE_NO_WARNINGS
+#include <cstdio>
+#include <iostream>
+#include <algorithm>
+#include <cmath>
+#include <string>
+#include <vector>
+#include <set>
+#include <map>
+#include <deque>
+#include <queue>
+#include <list>
+#include <cstring>
+#include <complex>
+#include <ctime>
+#include <bitset>
+#include <iomanip>
+#include <sstream>
+using namespace std;
+const double PI = 3.1415926535897932384626433832795;
+template<class T> T min(T &a, T &b) { return (a<b) ? a : b; }
+template<class T> T max(T &a, T &b) { return (a>b) ? a : b; }
+template<class T> T sqr(T &a) { return a*a; }
+template<class T> T abs(T &a) { return (a<0) ? (-a) : a; }
+typedef long long ll;
+typedef long long LL;
+typedef pair<int,int> ii;
+#define all(v) (v).begin(),(v).end()
+#define sz(v) ((int)((v).size()))
+#define PB push_back
+#define MP make_pair
+#define CLR(a) memset((a),0,sizeof(a))
+#define fori(i,n) for(int i=0;i<(n);i++)
+//------------------------------------------------------------------------------
+
+int a,b;
+
+bool vis[2012];
+
+vector<ii> v;
+
+LL sum;
+
+priority_queue<int> q;
+
+LL curw;
+
+int main()
+{
+#ifdef TEDDY_BEARS
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+	int T;
+	cin >> T;
+	for (int t = 0; t < T; t++)
+	{
+		int n;
+		cin >> n;
+
+		v.clear();
+
+		for (int i = 0; i < n; i++)
+		{
+			int x, w;
+			cin >> x >> w;
+			v.push_back(MP(x,w));
+		}
+
+		sort(all(v));
+
+		sum = 0;
+		curw = 0;
+		while (!q.empty()) q.pop();
+		int time = 0;
+
+		int cur = 0;
+		while (true)
+		{
+			if (cur < sz(v) && v[cur].first == time)
+			{
+				q.push(v[cur].second);
+				curw += v[cur].second;				
+				++cur;
+				continue;
+			}
+			if (!q.empty())
+			{
+				int p = q.top();
+				q.pop();
+				curw -= p;
+				sum += curw;
+				time += 1;
+				continue;
+			}
+			if (cur < sz(v))
+			{
+				time = v[cur].first;
+				continue;
+			}
+			break;
+		}
+		cout << sum << endl;
+	}
+
+}

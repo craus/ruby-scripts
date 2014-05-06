@@ -1,0 +1,78 @@
+use std
+
+\space is char 0 0 1 0 0 0 0 0 
+split_ s cur result is 
+  if s
+  then 
+    if eq top s \space
+    then split_ pop s nil push_back result reverse cur
+    else split_ pop s push_back cur top s result
+  else 
+    push_back result reverse cur
+  
+split s is reverse split_ s nil nil
+
+
+  
+s1 is pair pair pair pair nil 'C' 'B' 'C' 'A'
+s2 is pair pair nil 'A' 'A'
+s3 is pair pair nil 'B' 'A'
+s4 is pair nil 'A'
+s5 is pair pair pair nil 'A' 'A' 'C' 
+
+list is pair pair pair pair pair nil s1 s2 s3 s4 s5
+
+less4 is 1
+
+less_char x y is 
+  if less4 first x first y
+  then true
+  else if less4 first y first x
+  then false
+  else less4 second x second y
+
+less_ x y is 
+  if not y 
+  then false
+  else if not x 
+  then true
+  else if less_char top x top y 
+  then true
+  else if less_char top y top x
+  then false
+  else less_ pop x pop y
+
+less x y is 
+  less_ reverse x reverse y
+
+less_object x y is
+  if not y
+  then false
+  else if not x
+  then true
+  else if less_object first x first y
+  then true
+  else if less_object first y first x 
+  then false
+  else less_object second x second y
+  
+sort_last_two a is 
+  if both a pop a
+  then 
+    if less_object top a top pop a
+    then pair pair pop pop a top a top pop a
+    else a
+  else a
+  
+max_to_last a is 
+  if a 
+  then sort_last_two pair max_to_last pop a top a
+  else nil
+  
+sort_1 a is pair sort pop a top a 
+sort a is 
+  if not a then a
+  else sort_1 max_to_last a
+  
+main is print_stack sort split linein
+    

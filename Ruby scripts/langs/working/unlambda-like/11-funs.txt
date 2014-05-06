@@ -1,0 +1,2736 @@
+Errors: 0
+
+k
+xy : -
+  x
+applies: 2
+
+`kk
+xyz : -
+  y
+applies: 4
+
+``skk
+x : -
+  x
+applies: 6
+
+`sk
+xy : x(y)
+  y
+applies: 6
+
+`k`kk
+xyzw : -
+  z
+applies: 6
+
+`k``skk
+xy : -
+  y
+applies: 8
+
+``s`kkk
+xyz : -
+  x
+applies: 9
+
+`k`sk
+xyz : y(z)
+  z
+applies: 8
+
+`k`k`kk
+xyzwv : -
+  w
+applies: 8
+
+`k`k``skk
+xyz : -
+  z
+applies: 10
+
+`k``s`kkk
+xyzw : -
+  y
+applies: 11
+
+`s`kk
+xyz : x(y)
+  x(y)
+applies: 8
+
+`s`k`kk
+xyzw : x(y)
+  z
+applies: 10
+
+`k`k`sk
+xyzw : z(w)
+  w
+applies: 10
+
+`s``s`kkk
+xyz : x(y)
+  y
+applies: 13
+
+``s`skk
+xy : x(k(x))
+  x
+applies: 11
+
+``s`kk`sk
+xyz : x(z)
+  z
+applies: 13
+
+`k`k`k`kk
+xyzwvq : -
+  v
+applies: 10
+
+``s`sk`kk
+xyz : x(k)
+  y
+applies: 13
+
+`k`k`k``skk
+xyzw : -
+  w
+applies: 12
+
+``s`sk``skk
+x : x(x)
+  x
+applies: 15
+
+`k`k``s`kkk
+xyzwv : -
+  z
+applies: 13
+
+``s`k`s`skk
+xy : y(x)
+  x
+applies: 16
+
+`s`k``skk
+xy : x(y)
+  x(y)
+applies: 12
+
+`k`s`kk
+xyzw : y(z)
+  y(z)
+applies: 10
+
+`s`k`k``skk
+xyz : x(y)
+  z
+applies: 14
+
+`s`k`k`kk
+xyzwv : x(y)
+  w
+applies: 12
+
+`k`s`k`kk
+xyzwv : y(z)
+  w
+applies: 12
+
+`k`k`k`sk
+xyzwv : w(v)
+  v
+applies: 12
+
+`k``s`sk`kk
+xyzw : y(k)
+  z
+applies: 15
+
+`k``s`kk`sk
+xyzw : y(w)
+  w
+applies: 15
+
+`k``s`skk
+xyz : y(k(y))
+  y
+applies: 13
+
+`k`s``s`kkk
+xyzw : y(z)
+  z
+applies: 15
+
+``s``skk`kk
+x : x(k)
+  x(k)
+applies: 12
+
+``sk``s`skk
+x : x(k(x))
+  x
+applies: 15
+
+``sk``s`sks
+x : x(s(x))
+  x
+applies: 15
+
+``s``skk`ks
+x : x(s)
+  x(s)
+applies: 12
+
+``s``s`kskk
+xy : x(x)
+  x(x)
+applies: 16
+
+``s`s`kk`kk
+xy : x(k)
+  x(k)
+applies: 13
+
+``s`s`kk`ks
+xy : x(s)
+  x(s)
+applies: 13
+
+`k`k`k`k`sk
+xyzwvq : v(q)
+  q
+applies: 14
+
+`s`k`k`k`kk
+xyzwvq : x(y)
+  v
+applies: 14
+
+`k`k`s`kk
+xyzwv : z(w)
+  z(w)
+applies: 12
+
+`k`k`k`k`kk
+xyzwvq : -
+  k(q)
+applies: 11
+
+`k`s`k``skk
+xyz : y(z)
+  y(z)
+applies: 14
+
+`k`k`k`k`ks
+xyzwvq : -
+  s(q)
+applies: 11
+
+`k`s`k`k`kk
+xyzwvq : y(z)
+  v
+applies: 14
+
+``s`s`k`kks
+xyz : x(s(x))
+  y
+applies: 14
+
+`k`k`s`k`kk
+xyzwvq : z(w)
+  v
+applies: 14
+
+``s`s`k`kkk
+xyz : x(k(x))
+  y
+applies: 14
+
+`s`k``s`kkk
+xyzw : x(y)
+  x(y)
+applies: 15
+
+`k`k``s`skk
+xyzw : z(k(z))
+  z
+applies: 15
+
+`k`k`k`ks
+xyzwvq : -
+  s(v, q)
+applies: 10
+
+``s`sk`k`kk
+xyzw : x(k(k))
+  z
+applies: 15
+
+``s`kk`s`kk
+xyzw : x(z)
+  x(z)
+applies: 15
+
+``s``skks
+x : x(s(x))
+  x(s(x))
+applies: 11
+
+`s`k`k`sk
+xyzw : x(y); z(w)
+  w
+applies: 14
+
+`s`sk
+xy : x(y); y(x(y))
+  x(y)
+applies: 10
+
+`k```sss`kk
+xyzwv : y(w)
+  y(w)
+applies: 19
+
+``s``skkk
+x : x(k(x))
+  x(k(x))
+applies: 11
+
+`s`k`sk
+xyz : x(y); x(y, z)
+  z
+applies: 12
+
+``s`ss`kk
+xy : x(k); x(k, y)
+  y
+applies: 15
+
+``s`s`kks
+xy : x(s(x))
+  x(s(x))
+applies: 12
+
+`k`k`k`s`kk
+xyzwvq : w(v)
+  w(v)
+applies: 14
+
+``s`s`kkk
+xy : x(k(x))
+  x(k(x))
+applies: 12
+
+`s``s`kk`sk
+xyz : x(y); y(z)
+  z
+applies: 17
+
+`s``s`skk
+xy : y(k(y)); x(y)
+  y
+applies: 15
+
+`k`s`k`sk
+xyzw : y(z); y(z, w)
+  w
+applies: 14
+
+`k`s`sk
+xyz : y(z); z(y(z))
+  y(z)
+applies: 12
+
+`k`s`k`k`sk
+xyzwv : y(z); w(v)
+  v
+applies: 16
+
+``ssk
+xy : x(y); x(y, x)
+  x(y, x)
+applies: 10
+
+`s`k`k`k`sk
+xyzwv : x(y); w(v)
+  v
+applies: 16
+
+`k``s``skkk
+xy : y(k(y))
+  y(k(y))
+applies: 13
+
+`k``s``skks
+xy : y(s(y))
+  y(s(y))
+applies: 13
+
+`s`s`k`kk
+xyzw : x(y); y(x(y))
+  z
+applies: 14
+
+`k`s`k`k`ks
+xyzwvq : y(z)
+  s(v, q)
+applies: 14
+
+`s`k`k`k`ks
+xyzwvq : x(y)
+  s(v, q)
+applies: 14
+
+`s``s`sk`kk
+xyz : y(k); x(y)
+  x(y)
+applies: 17
+
+``s`sk`sk
+xy : x(s(k, x)); x(y)
+  y
+applies: 15
+
+`k`k`s`k`ks
+xyzwvq : z(w)
+  s(v, q)
+applies: 14
+
+``s`ks`s`kk
+xyz : x(z); y(z)
+  x(z)
+applies: 17
+
+`k``s`ss`kk
+xyz : y(k); y(k, z)
+  z
+applies: 17
+
+`k`s``s`skk
+xyz : z(k(z)); y(z)
+  z
+applies: 17
+
+`k``s`s`kkk
+xyz : y(k(y))
+  y(k(y))
+applies: 14
+
+`k``s`s`kks
+xyz : y(s(y))
+  y(s(y))
+applies: 14
+
+``s`sk`k`sk
+xyz : x(s(k)); y(z)
+  z
+applies: 17
+
+`s```sss`kk
+xyzw : x(y); y(z)
+  y(z)
+applies: 21
+
+`k```ssk`sk
+xyzw : y(s(k)); z(w)
+  w
+applies: 21
+
+```s`sss`sk
+x : x(x); x(x(x))
+  x(x)
+applies: 24
+
+`s``skk
+xy : x(y); y(x(y))
+  y(x(y))
+applies: 11
+
+`s`s`k`k`kk
+xyzwv : x(y); y(x(y))
+  w
+applies: 16
+
+`k`s`s`k`kk
+xyzwv : y(z); z(y(z))
+  w
+applies: 16
+
+`k``ssk
+xyz : y(z); y(z, y)
+  y(z, y)
+applies: 12
+
+`k`k`s`sk
+xyzw : z(w); w(z(w))
+  z(w)
+applies: 14
+
+``s`ksk
+xyz : y(z); x(y(z))
+  x(y(z))
+applies: 12
+
+`k`k`s`k`sk
+xyzwv : z(w); z(w, v)
+  v
+applies: 16
+
+`s`k`s`k`kk
+xyzwv : x(y); x(y, z)
+  w
+applies: 16
+
+`s`s`kk
+xyz : x(y); y(x(y))
+  y(x(y))
+applies: 12
+
+`s`k`k`s`kk
+xyzwv : x(y); z(w)
+  z(w)
+applies: 16
+
+`k`k`k`s`ks
+xyzwvq : w(v)
+  s(w(v), q)
+applies: 14
+
+``ss`k`kk
+xy : x(y); x(y, k)
+  x(y, k)
+applies: 12
+
+``ss`k`ks
+xy : x(y); x(y, s)
+  x(y, s)
+applies: 12
+
+`k`k`k`k`ss
+xyzwvq : v(q)
+  s(q, v(q))
+applies: 14
+
+`s`s``s`kkk
+xyz : x(y); y(x(y))
+  x(y)
+applies: 17
+
+``s`kk`s`sk
+xyz : x(z); z(x(z))
+  x(z)
+applies: 17
+
+`k``s`sk`sk
+xyz : y(s(k, y)); y(z)
+  z
+applies: 17
+
+``s``ssk`ks
+x : x(s); x(s, x)
+  x(s, x)
+applies: 15
+
+``s``ssk`kk
+x : x(k); x(k, x)
+  x(k, x)
+applies: 15
+
+``s`s`s`skk
+x : x(k(x)); x(k(x), x)
+  x
+applies: 18
+
+``s``skk`sk
+x : x(s(k, x))
+  x(s(k, x))
+applies: 12
+
+``s``skk`ss
+x : x(s(s, x))
+  x(s(s, x))
+applies: 12
+
+```ssk``sks
+x : x(s(k, s))
+  x(s(k, s))
+applies: 15
+
+```ssk`s`sk
+x : x(s(s(k)))
+  x(s(s(k)))
+applies: 18
+
+```ssk``skk
+x : x(s(k, k))
+  x(s(k, k))
+applies: 15
+
+`k`s``skk
+xyz : y(z); z(y(z))
+  z(y(z))
+applies: 13
+
+`s``s`s`kkk
+xy : y(k(y)); x(y)
+  y(k(y))
+applies: 16
+
+`k`k`k`s`sk
+xyzwv : w(v); v(w(v))
+  w(v)
+applies: 16
+
+``s``s`ksks
+xy : x(s(x, y))
+  x(s(x, y))
+applies: 16
+
+```ssk`s`kk
+xy : x(s(k(k)))
+  x(s(k(k)))
+applies: 16
+
+`k`k``ssk
+xyzw : z(w); z(w, z)
+  z(w, z)
+applies: 14
+
+`s``s`s`kks
+xy : y(s(y)); x(y)
+  y(s(y))
+applies: 16
+
+``s`s`kk`sk
+xy : x(s(k, x))
+  x(s(k, x))
+applies: 13
+
+``s`s`kk`ss
+xy : x(s(s, x))
+  x(s(s, x))
+applies: 13
+
+`k``s`ksk
+xyzw : z(w); y(z(w))
+  y(z(w))
+applies: 14
+
+``s`s`k`skk
+xy : x(k(x)); x(k(x), y)
+  y
+applies: 16
+
+``ss`k``skk
+xy : x(y); x(y, y)
+  x(y, y)
+applies: 16
+
+``s`s`k`sks
+xy : x(s(x)); x(s(x), y)
+  y
+applies: 16
+
+`k`s`s`kk
+xyzw : y(z); z(y(z))
+  z(y(z))
+applies: 14
+
+`s`k`s`kk
+xyzw : x(y); x(y, z)
+  x(y, z)
+applies: 14
+
+``s`kk``ssk
+xyz : x(z); x(z, x)
+  x(z, x)
+applies: 17
+
+`k``ss`k`ks
+xyz : y(z); y(z, s)
+  y(z, s)
+applies: 14
+
+`k``ss`k`kk
+xyz : y(z); y(z, k)
+  y(z, k)
+applies: 14
+
+``ss`kk
+xy : x(y); x(y, k(y))
+  x(y, k(y))
+applies: 11
+
+``ss`ks
+xy : x(y); x(y, s(y))
+  x(y, s(y))
+applies: 11
+
+`k`k`s``skk
+xyzw : z(w); w(z(w))
+  w(z(w))
+applies: 15
+
+``ss`sk
+xy : x(y); x(y); x(y, y)
+  x(y, y)
+applies: 14
+
+`s`s`k`k`sk
+xyzw : x(y); y(x(y)); z(w)
+  w
+applies: 18
+
+``s`s``sskk
+x : x(k(x)); x(k(x))
+  x(k(x))
+applies: 18
+
+s
+xyz : x(z); y(z); x(z, y(z))
+  x(z, y(z))
+applies: 6
+
+`k`k``s`ksk
+xyzwv : w(v); z(w(v))
+  z(w(v))
+applies: 16
+
+`k`s`k`s`kk
+xyzwv : y(z); y(z, w)
+  y(z, w)
+applies: 16
+
+`k`k`s`s`kk
+xyzwv : z(w); w(z(w))
+  w(z(w))
+applies: 16
+
+`k`k`k``ssk
+xyzwv : w(v); w(v, w)
+  w(v, w)
+applies: 16
+
+`s```ssk`sk
+xyz : y(s(k)); x(y); x(y, z)
+  z
+applies: 23
+
+`s`k``s`skk
+xyz : x(y); x(y, k(x(y)))
+  x(y)
+applies: 17
+
+``s`sk`s`kk
+xyz : x(s(k(k), x)); x(y)
+  x(y)
+applies: 17
+
+`k``ss`ks
+xyz : y(z); y(z, s(z))
+  y(z, s(z))
+applies: 13
+
+`k``ss`kk
+xyz : y(z); y(z, k(z))
+  y(z, k(z))
+applies: 13
+
+`ks
+xyzw : y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 8
+
+``s`ks`sk
+xyz : x(z); y(z); z(y(z))
+  z(y(z))
+applies: 16
+
+`s`k`k`s`sk
+xyzw : x(y); z(w); w(z(w))
+  z(w)
+applies: 18
+
+`s`s`k`sk
+xyz : x(y); y(x(y)); y(x(y), z)
+  z
+applies: 16
+
+`k``ss`sk
+xyz : y(z); y(z); y(z, z)
+  y(z, z)
+applies: 16
+
+``ss`k`k`kk
+xy : x(y); x(y, k(k))
+  x(y, k(k))
+applies: 13
+
+``ss`k`k`ks
+xy : x(y); x(y, k(s))
+  x(y, k(s))
+applies: 13
+
+``s`k``sssk
+xy : x(s(k(x), y))
+  x(s(k(x), y))
+applies: 16
+
+``ss`k`k`sk
+xy : x(y); x(y, s(k))
+  x(y, s(k))
+applies: 13
+
+``ss`k`k`ss
+xy : x(y); x(y, s(s))
+  x(y, s(s))
+applies: 13
+
+`s``s`ss`kk
+xy : y(k); x(y); y(k, x(y))
+  x(y)
+applies: 19
+
+``sss
+xy : x(y); x(y, s(x, y))
+  x(y, s(x, y))
+applies: 10
+
+``ss``s`kks
+xy : x(y); x(y, s(x))
+  x(y, s(x))
+applies: 16
+
+``s``sskk
+x : x(k(x)); x(k(x), x)
+  x(k(x), x)
+applies: 14
+
+``ss`s`k`kk
+xy : x(y); x(y); x(y, k)
+  x(y, k)
+applies: 16
+
+``s``ssks
+x : x(s(x)); x(s(x), x)
+  x(s(x), x)
+applies: 14
+
+``ss`s`k`ks
+xy : x(y); x(y); x(y, s)
+  x(y, s)
+applies: 16
+
+``ss``s`kkk
+xy : x(y); x(y, k(x))
+  x(y, k(x))
+applies: 16
+
+```ss`ss`kk
+xyz : x(z); x(z, k(z))
+  x(z, k(z))
+applies: 20
+
+`k`s`s`k`sk
+xyzw : y(z); z(y(z)); z(y(z), w)
+  w
+applies: 18
+
+`k``s`ks`sk
+xyzw : y(w); z(w); w(z(w))
+  w(z(w))
+applies: 18
+
+`k`k``ss`ks
+xyzw : z(w); z(w, s(w))
+  z(w, s(w))
+applies: 15
+
+`k`k``ss`sk
+xyzw : z(w); z(w); z(w, w)
+  z(w, w)
+applies: 18
+
+`k`k``ss`kk
+xyzw : z(w); z(w, k(w))
+  z(w, k(w))
+applies: 15
+
+`s`k`k``ssk
+xyzw : x(y); z(w); z(w, z)
+  z(w, z)
+applies: 18
+
+`s`k`s`k`sk
+xyzw : x(y); x(y, z); x(y, z, w)
+  w
+applies: 18
+
+`k`ks
+xyzwv : z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 10
+
+``ss``s`skk
+xy : x(k(x)); x(y); x(y, x)
+  x(y, x)
+applies: 19
+
+`k``sss
+xyz : y(z); y(z, s(y, z))
+  y(z, s(y, z))
+applies: 12
+
+`s``s`sk`sk
+xy : y(s(k, y)); x(y); y(x(y))
+  x(y)
+applies: 19
+
+`k``s``ssks
+xy : y(s(y)); y(s(y), y)
+  y(s(y), y)
+applies: 16
+
+`k``s``sskk
+xy : y(k(y)); y(k(y), y)
+  y(k(y), y)
+applies: 16
+
+``s``s`sksk
+xy : x(s(x)); x(y); x(y, x)
+  x(y, x)
+applies: 19
+
+``s`ss`k`kk
+xyz : x(k(k)); x(k(k), y)
+  x(k(k), y)
+applies: 17
+
+``ss``skk
+xy : x(y); x(y); x(y, x(y))
+  x(y, x(y))
+applies: 15
+
+``ss`k`ss
+xy : x(y); x(y, s(s, y))
+  x(y, s(s, y))
+applies: 12
+
+``s`kks
+xyzw : x(w); z(w); x(w, z(w))
+  x(w, z(w))
+applies: 13
+
+``ss`k`sk
+xy : x(y); x(y, s(k, y))
+  x(y, s(k, y))
+applies: 12
+
+```sss``sks
+x : x(s(s(k, s), x))
+  x(s(s(k, s), x))
+applies: 15
+
+`s`s`sk
+xy : x(y); y(x(y)); x(y, y(x(y)))
+  y(x(y))
+applies: 14
+
+```sss``skk
+x : x(s(s(k, k), x))
+  x(s(s(k, k), x))
+applies: 15
+
+`s``ssk
+xy : x(y); y(x(y)); y(x(y), y)
+  y(x(y), y)
+applies: 14
+
+``s``sss`ks
+x : x(s); x(s, s(x, s))
+  x(s, s(x, s))
+applies: 15
+
+``s`k`ssk
+xyz : y(z); x(z); y(z, x(z))
+  y(z, x(z))
+applies: 16
+
+`s`s`s`k`kk
+xyzw : x(y); y(x(y)); x(y, y(x(y)))
+  z
+applies: 18
+
+``s``sss`kk
+x : x(k); x(k, s(x, k))
+  x(k, s(x, k))
+applies: 15
+
+`s`k`s`sk
+xyz : x(y); x(y, z); z(x(y, z))
+  x(y, z)
+applies: 16
+
+```sss`s`kk
+xy : x(s(s(k(k)), x))
+  x(s(s(k(k)), x))
+applies: 16
+
+``s``s`kssk
+xy : x(x); y(x); x(x, y(x))
+  x(x, y(x))
+applies: 19
+
+`k`k``sss
+xyzw : z(w); z(w, s(z, w))
+  z(w, s(z, w))
+applies: 14
+
+``s`sk`s`sk
+xy : x(s(s(k), x)); x(y); y(x(y))
+  x(y)
+applies: 19
+
+`k`k`ks
+xyzwvq : w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 12
+
+`s`s``s`skk
+xy : x(y); x(y, k(x(y))); y(x(y))
+  x(y)
+applies: 19
+
+`k``s`kks
+xyzwv : y(v); w(v); y(v, w(v))
+  y(v, w(v))
+applies: 15
+
+``s`kk``sss
+xyz : x(z); x(z, s(x, z))
+  x(z, s(x, z))
+applies: 17
+
+`k``ss``skk
+xyz : y(z); y(z); y(z, y(z))
+  y(z, y(z))
+applies: 17
+
+`k```sss`sk
+xyz : y(s(s(k), y)); y(z); z(y(z))
+  y(z)
+applies: 23
+
+`k``ss`k`ss
+xyz : y(z); y(z, s(s, z))
+  y(z, s(s, z))
+applies: 14
+
+`k``ss`k`sk
+xyz : y(z); y(z, s(k, z))
+  y(z, s(k, z))
+applies: 14
+
+`k``s`k`ssk
+xyzw : z(w); y(w); z(w, y(w))
+  z(w, y(w))
+applies: 18
+
+`k`s`s`sk
+xyz : y(z); z(y(z)); y(z, z(y(z)))
+  z(y(z))
+applies: 16
+
+`s``s`ksk
+xyz : x(y); x(y, z); y(x(y, z))
+  y(x(y, z))
+applies: 16
+
+`k`s``ssk
+xyz : y(z); z(y(z)); z(y(z), z)
+  z(y(z), z)
+applies: 16
+
+`s`k``s`ksk
+xyzw : x(y); z(w); x(y, z(w))
+  x(y, z(w))
+applies: 18
+
+`k`s`k`s`sk
+xyzw : y(z); y(z, w); w(y(z, w))
+  y(z, w)
+applies: 18
+
+``s`k`s`kks
+xyzw : x(w); y(w); x(w, y(w))
+  x(w, y(w))
+applies: 18
+
+``s`s`sk`ss
+x : x(s(s, x)); x(x(s(s, x)))
+  x(s(s, x))
+applies: 18
+
+``s`s`sk`sk
+x : x(s(k, x)); x(x(s(k, x)))
+  x(s(k, x))
+applies: 18
+
+`k`k`k``sss
+xyzwv : w(v); w(v, s(w, v))
+  w(v, s(w, v))
+applies: 16
+
+`s``ss`k`kk
+xy : x(y); y(x(y)); y(x(y), k)
+  y(x(y), k)
+applies: 16
+
+``s`sk``ssk
+xy : x(s(x, k(x))); x(y); x(y, x)
+  x(y, x)
+applies: 19
+
+`s``ss`k`ks
+xy : x(y); y(x(y)); y(x(y), s)
+  y(x(y), s)
+applies: 16
+
+`s`k`s``skk
+xyz : x(y); x(y, z); z(x(y, z))
+  z(x(y, z))
+applies: 17
+
+``ss`s`ks
+xy : x(y); x(y); x(y, s(x(y)))
+  x(y, s(x(y)))
+applies: 15
+
+``ss`s`kk
+xy : x(y); x(y); x(y, k(x(y)))
+  x(y, k(x(y)))
+applies: 15
+
+`k`k``s`kks
+xyzwvq : z(q); v(q); z(q, v(q))
+  z(q, v(q))
+applies: 17
+
+``s``ssk`ss
+x : x(s(s, x)); x(s(s, x), x)
+  x(s(s, x), x)
+applies: 15
+
+`k`k`s``ssk
+xyzw : z(w); w(z(w)); w(z(w), w)
+  w(z(w), w)
+applies: 18
+
+`s`k`ks
+xyzwv : x(y); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 14
+
+`s`k`s`s`kk
+xyzw : x(y); x(y, z); z(x(y, z))
+  z(x(y, z))
+applies: 18
+
+`k`s``s`ksk
+xyzw : y(z); y(z, w); z(y(z, w))
+  z(y(z, w))
+applies: 18
+
+`s`s`k`s`kk
+xyzw : x(y); y(x(y)); y(x(y), z)
+  y(x(y), z)
+applies: 18
+
+``s``ssk`sk
+x : x(s(k, x)); x(s(k, x), x)
+  x(s(k, x), x)
+applies: 15
+
+`k`k`s`s`sk
+xyzw : z(w); w(z(w)); z(w, w(z(w)))
+  w(z(w))
+applies: 18
+
+```ssk``ssk
+x : x(s(s, k)); x(s(s, k), x)
+  x(s(s, k), x)
+applies: 18
+
+``ss`k`s`ks
+xy : x(y); x(y, s(k(s), y))
+  x(y, s(k(s), y))
+applies: 13
+
+``ss`k`s`sk
+xy : x(y); x(y, s(s(k), y))
+  x(y, s(s(k), y))
+applies: 13
+
+``ss`k`s`kk
+xy : x(y); x(y, s(k(k), y))
+  x(y, s(k(k), y))
+applies: 13
+
+``ss``s`ksk
+xy : x(y); x(y, s(k(x), y))
+  x(y, s(k(x), y))
+applies: 16
+
+``ss``s`kss
+xy : x(y); x(y, s(s(x), y))
+  x(y, s(s(x), y))
+applies: 16
+
+``s`sk`ks
+xyzw : x(s); y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 17
+
+``s`sks
+xyz : x(s(x)); x(z); y(z); x(z, y(z))
+  x(z, y(z))
+applies: 15
+
+`s``s`kks
+xyzw : x(y); y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 17
+
+``ss`k`s`ss
+xy : x(y); x(y, s(s(s), y))
+  x(y, s(s(s), y))
+applies: 13
+
+``ss`k``ssk
+xy : x(y); x(y, s(y, k(y)))
+  x(y, s(y, k(y)))
+applies: 16
+
+``ss`k``sss
+xy : x(y); x(y, s(y, s(y)))
+  x(y, s(y, s(y)))
+applies: 16
+
+``ss`s`sk
+xy : x(y); x(y); y(x(y)); x(y, x(y))
+  x(y, x(y))
+applies: 18
+
+`k``ss`s`ks
+xyz : y(z); y(z); y(z, s(y(z)))
+  y(z, s(y(z)))
+applies: 17
+
+`s`s``skk
+xy : x(y); y(x(y)); x(y, y(x(y)))
+  x(y, y(x(y)))
+applies: 15
+
+`k``ss`s`kk
+xyz : y(z); y(z); y(z, k(y(z)))
+  y(z, k(y(z)))
+applies: 17
+
+``s`k`ss`sk
+xyz : x(y); y(z); y(z); y(z, y(z))
+  y(z, y(z))
+applies: 20
+
+``s``ss`kkk
+x : x(k(x)); x(k(x), k(k(x)))
+  x(k(x), k(k(x)))
+applies: 15
+
+``s``ss`kks
+x : x(s(x)); x(s(x), k(s(x)))
+  x(s(x), k(s(x)))
+applies: 15
+
+``s``ss`ksk
+x : x(k(x)); x(k(x), s(k(x)))
+  x(k(x), s(k(x)))
+applies: 15
+
+`s`k`k`ks
+xyzwvq : x(y); w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 16
+
+``s``ss`kss
+x : x(s(x)); x(s(x), s(s(x)))
+  x(s(x), s(s(x)))
+applies: 15
+
+``ss`ss
+xy : x(y); x(y); x(y, s(y, x(y)))
+  x(y, s(y, x(y)))
+applies: 14
+
+`s`k`k``sss
+xyzw : x(y); z(w); z(w, s(z, w))
+  z(w, s(z, w))
+applies: 18
+
+`s`s`s`kk
+xyz : x(y); y(x(y)); x(y, y(x(y)))
+  x(y, y(x(y)))
+applies: 16
+
+`ss
+xyz : x(y); y(z); x(y, z); y(z, x(y, z))
+  y(z, x(y, z))
+applies: 10
+
+`k`s`k`ks
+xyzwvq : y(z); w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 16
+
+`s`k``ssk
+xyz : x(y); x(y, z); x(y, z, x(y))
+  x(y, z, x(y))
+applies: 16
+
+`k``s`sks
+xyzw : y(s(y)); y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 17
+
+`s``s``skks
+xy : y(s(y)); x(y); y(s(y), x(y))
+  y(s(y), x(y))
+applies: 16
+
+``s`s`ss`kk
+xy : x(k); x(k, y); x(k, y, x(k))
+  x(k, y, x(k))
+applies: 19
+
+`s``s``skkk
+xy : y(k(y)); x(y); y(k(y), x(y))
+  y(k(y), x(y))
+applies: 16
+
+``ss``s`sks
+xy : x(s(x)); x(y); x(y, s(x, y))
+  x(y, s(x, y))
+applies: 19
+
+``s`ss`s`kk
+xy : x(s(k(k), x)); x(y); x(s(k(k), x), y)
+  x(y)
+applies: 19
+
+`k`s``s`kks
+xyzwv : y(z); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 19
+
+`k``s`sk`ks
+xyzwv : y(s); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 19
+
+`s`k``ss`kk
+xyz : x(y); x(y, z); x(y, z, k(z))
+  x(y, z, k(z))
+applies: 17
+
+``s`s`s`ksk
+xyz : x(k(x)); x(z); y(z); x(z, y(z))
+  x(z, y(z))
+applies: 20
+
+``s`ks`s`sk
+xyz : x(z); z(x(z)); y(z); x(z, y(z))
+  x(z, y(z))
+applies: 20
+
+`s`k``ss`ks
+xyz : x(y); x(y, z); x(y, z, s(z))
+  x(y, z, s(z))
+applies: 17
+
+`k`s`s``skk
+xyz : y(z); z(y(z)); y(z, z(y(z)))
+  y(z, z(y(z)))
+applies: 17
+
+`k``ss`s`sk
+xyz : y(z); y(z); z(y(z)); y(z, y(z))
+  y(z, y(z))
+applies: 20
+
+`s``s`ks`sk
+xyz : x(y); y(z); x(y, z); z(x(y, z))
+  z(x(y, z))
+applies: 20
+
+``s``ss`sks
+x : x(s(x)); x(s(x)); x(s(x), s(x))
+  x(s(x), s(x))
+applies: 18
+
+``s`ssk
+xy : x(k(x)); x(k(x), y); x(x(k(x), y))
+  x(x(k(x), y))
+applies: 14
+
+`k``ss`ss
+xyz : y(z); y(z); y(z, s(z, y(z)))
+  y(z, s(z, y(z)))
+applies: 16
+
+``s``ss`skk
+x : x(k(x)); x(k(x)); x(k(x), k(x))
+  x(k(x), k(x))
+applies: 18
+
+`k`s`s`s`kk
+xyzw : y(z); z(y(z)); y(z, z(y(z)))
+  y(z, z(y(z)))
+applies: 18
+
+``s`s`k`ksk
+xyzw : x(k(x)); y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 18
+
+`s`ks
+xyzw : x(y); x(y, w); z(w); x(y, w, z(w))
+  x(y, w, z(w))
+applies: 12
+
+``s`s`k`kss
+xyzw : x(s(x)); y(w); z(w); y(w, z(w))
+  y(w, z(w))
+applies: 18
+
+`k`s`k``ssk
+xyzw : y(z); y(z, w); y(z, w, y(z))
+  y(z, w, y(z))
+applies: 18
+
+`k`ss
+xyzw : y(z); z(w); y(z, w); z(w, y(z, w))
+  z(w, y(z, w))
+applies: 12
+
+``ss`s`k`ss
+xy : x(y); x(y); x(y, s(s, x(y)))
+  x(y, s(s, x(y)))
+applies: 16
+
+```ss`ss`sk
+xy : x(s(x, s(k, x))); x(y); x(y); x(y, y)
+  x(y, y)
+applies: 25
+
+``s`sk`k`ks
+xyzwv : x(k(s)); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 19
+
+``s`ss`k`sk
+xy : x(s(k)); x(s(k), y); y(x(s(k), y))
+  x(s(k), y)
+applies: 19
+
+`k`k``s`sks
+xyzwv : z(s(z)); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 19
+
+``s``sssk
+x : x(k(x)); x(k(x), s(x, k(x)))
+  x(k(x), s(x, k(x)))
+applies: 14
+
+``ss`s`k`sk
+xy : x(y); x(y); x(y, s(k, x(y)))
+  x(y, s(k, x(y)))
+applies: 16
+
+``s``ssss
+x : x(s(x)); x(s(x), s(x, s(x)))
+  x(s(x), s(x, s(x)))
+applies: 14
+
+``ss``ssk
+xy : x(y); x(y); x(y, x); x(y, x(y, x))
+  x(y, x(y, x))
+applies: 18
+
+`s``ss`ks
+xy : x(y); y(x(y)); y(x(y), s(x(y)))
+  y(x(y), s(x(y)))
+applies: 15
+
+`s``ss`kk
+xy : x(y); y(x(y)); y(x(y), k(x(y)))
+  y(x(y), k(x(y)))
+applies: 15
+
+``s`k`s`sks
+xyz : y(s(x, y)); x(z); y(z); x(z, y(z))
+  x(z, y(z))
+applies: 20
+
+`s`k``ss`sk
+xyz : x(y); x(y, z); x(y, z); x(y, z, z)
+  x(y, z, z)
+applies: 20
+
+`k`k``ss`ss
+xyzw : z(w); z(w); z(w, s(w, z(w)))
+  z(w, s(w, z(w)))
+applies: 18
+
+`k`k`ss
+xyzwv : z(w); w(v); z(w, v); w(v, z(w, v))
+  w(v, z(w, v))
+applies: 14
+
+``s`s``sssk
+x : x(k(x)); x(s(k(x), x(k(x))))
+  x(s(k(x), x(k(x))))
+applies: 18
+
+`k`s`ks
+xyzwv : y(z); y(z, v); w(v); y(z, v, w(v))
+  y(z, v, w(v))
+applies: 14
+
+`k``s`ssk
+xyz : y(k(y)); y(k(y), z); y(y(k(y), z))
+  y(y(k(y), z))
+applies: 16
+
+``s`kk`ss
+xyzw : x(z); z(w); x(z, w); z(w, x(z, w))
+  z(w, x(z, w))
+applies: 17
+
+``ss`s``skk
+xy : x(y); x(y); y(x(y)); x(y, y(x(y)))
+  x(y, y(x(y)))
+applies: 19
+
+``s`sk``sss
+xy : x(s(x, s(x))); x(y); x(y, s(x, y))
+  x(y, s(x, y))
+applies: 19
+
+`k``s``sssk
+xy : y(k(y)); y(k(y), s(y, k(y)))
+  y(k(y), s(y, k(y)))
+applies: 16
+
+`k``s``ssss
+xy : y(s(y)); y(s(y), s(y, s(y)))
+  y(s(y), s(y, s(y)))
+applies: 16
+
+``s`ss``skk
+xy : x(x); x(y); x(x, y); x(y, x(x, y))
+  x(y, x(x, y))
+applies: 19
+
+``s`s`ks`kk
+xyz : x(k); x(k, z); y(z); x(k, z, y(z))
+  x(k, z, y(z))
+applies: 17
+
+``s`ks``ssk
+xyz : x(z); x(z, x); y(z); x(z, x, y(z))
+  x(z, x, y(z))
+applies: 20
+
+`s`s`k`ks
+xyzwv : x(y); y(x(y)); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 18
+
+`s``ss`sk
+xy : x(y); y(x(y)); y(x(y)); y(x(y), x(y))
+  y(x(y), x(y))
+applies: 18
+
+`s`s`s`k`sk
+xyz : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), z)
+  z
+applies: 20
+
+``s`s`ks`ks
+xyz : x(s); x(s, z); y(z); x(s, z, y(z))
+  x(s, z, y(z))
+applies: 17
+
+``s`k`s`ssk
+xyz : y(x); x(z); y(x, z); x(z, y(x, z))
+  x(z, y(x, z))
+applies: 20
+
+`s``s`k`ssk
+xyz : x(y); x(y, z); y(z); x(y, z, y(z))
+  x(y, z, y(z))
+applies: 20
+
+`k``ss``ssk
+xyz : y(z); y(z); y(z, y); y(z, y(z, y))
+  y(z, y(z, y))
+applies: 20
+
+`k`s``ss`ks
+xyz : y(z); z(y(z)); z(y(z), s(y(z)))
+  z(y(z), s(y(z)))
+applies: 17
+
+`k`s``ss`kk
+xyz : y(z); z(y(z)); z(y(z), k(y(z)))
+  z(y(z), k(y(z)))
+applies: 17
+
+`k`k``s`ssk
+xyzw : z(k(z)); z(k(z), w); z(z(k(z), w))
+  z(z(k(z), w))
+applies: 18
+
+`s``sss
+xy : x(y); y(x(y)); y(x(y), s(y, x(y)))
+  y(x(y), s(y, x(y)))
+applies: 14
+
+`k`k`k`ss
+xyzwvq : w(v); v(q); w(v, q); v(q, w(v, q))
+  v(q, w(v, q))
+applies: 16
+
+`k`k`s`ks
+xyzwvq : z(w); z(w, q); v(q); z(w, q, v(q))
+  z(w, q, v(q))
+applies: 16
+
+`s```sss`sk
+xy : y(s(s(k), y)); x(y); y(x(y)); x(y, y(x(y)))
+  y(x(y))
+applies: 25
+
+``s`k``ssks
+xy : x(s(x)); y(s(x)); x(s(x), y(s(x)))
+  x(s(x), y(s(x)))
+applies: 19
+
+``s`kk`s`ks
+xyzwv : x(z); x(z, v); w(v); x(z, v, w(v))
+  x(z, v, w(v))
+applies: 19
+
+`s`k``s`kks
+xyzwv : x(y); x(y, v); w(v); x(y, v, w(v))
+  x(y, v, w(v))
+applies: 19
+
+`k``s`kk`ss
+xyzwv : y(w); w(v); y(w, v); w(v, y(w, v))
+  w(v, y(w, v))
+applies: 19
+
+`s`s`k`k`ks
+xyzwvq : x(y); y(x(y)); w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 20
+
+`s`k`s`k`ks
+xyzwvq : x(y); x(y, z); w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 20
+
+`k`s`s`k`ks
+xyzwvq : y(z); z(y(z)); w(q); v(q); w(q, v(q))
+  w(q, v(q))
+applies: 20
+
+`k`s``ss`sk
+xyz : y(z); z(y(z)); z(y(z)); z(y(z), y(z))
+  z(y(z), y(z))
+applies: 20
+
+`s`s`k`s`sk
+xyz : x(y); y(x(y)); y(x(y), z); z(y(x(y), z))
+  y(x(y), z)
+applies: 20
+
+`k`s``sss
+xyz : y(z); z(y(z)); z(y(z), s(z, y(z)))
+  z(y(z), s(z, y(z)))
+applies: 16
+
+`s`k``sss
+xyz : x(y); x(y, z); x(y, z, s(x(y), z))
+  x(y, z, s(x(y), z))
+applies: 16
+
+`s``ss`k`ss
+xy : x(y); y(x(y)); y(x(y), s(s, x(y)))
+  y(x(y), s(s, x(y)))
+applies: 16
+
+``ss`s`s`ks
+xy : x(y); x(y); y(x(y)); x(y, s(y(x(y))))
+  x(y, s(y(x(y))))
+applies: 19
+
+``s`s`ss`ks
+xy : x(s); x(s, y); x(s, y, s(x(s), y))
+  x(s, y, s(x(s), y))
+applies: 19
+
+``ss`s`s`kk
+xy : x(y); x(y); y(x(y)); x(y, k(y(x(y))))
+  x(y, k(y(x(y))))
+applies: 19
+
+``s`kss
+xyz : y(z); x(y(z)); z(y(z)); x(y(z), z(y(z)))
+  x(y(z), z(y(z)))
+applies: 15
+
+``ss``ss`sk
+xy : x(y); x(y); x(y); x(y, y); x(y, x(y, y))
+  x(y, x(y, y))
+applies: 22
+
+`s``ss`k`sk
+xy : x(y); y(x(y)); y(x(y), s(k, x(y)))
+  y(x(y), s(k, x(y)))
+applies: 16
+
+`s`k`s``ssk
+xyz : x(y); x(y, z); z(x(y, z)); z(x(y, z), z)
+  z(x(y, z), z)
+applies: 20
+
+`s`k`k`ss
+xyzwv : x(y); z(w); w(v); z(w, v); w(v, z(w, v))
+  w(v, z(w, v))
+applies: 18
+
+`s``s`sks
+xyz : y(s(y)); x(y); y(z); x(y, z); y(z, x(y, z))
+  y(z, x(y, z))
+applies: 19
+
+`s``s`kk`ss
+xyzw : x(y); y(z); z(w); y(z, w); z(w, y(z, w))
+  z(w, y(z, w))
+applies: 21
+
+`s``s`sk`ks
+xyzw : y(s); x(y); x(y, w); z(w); x(y, w, z(w))
+  x(y, w, z(w))
+applies: 21
+
+```sss``ssk
+x : x(s(s(s, k), x)); x(s(s(s, k), x), x)
+  x(s(s(s, k), x), x)
+applies: 18
+
+``s``s`sskk
+x : x(k(x)); x(k(x), k(x)); x(x(k(x), k(x)))
+  x(x(k(x), k(x)))
+applies: 18
+
+`k`k`s``sss
+xyzw : z(w); w(z(w)); w(z(w), s(w, z(w)))
+  w(z(w), s(w, z(w)))
+applies: 18
+
+``s``s`ssks
+x : x(k(x)); x(k(x), s(x)); x(x(k(x), s(x)))
+  x(x(k(x), s(x)))
+applies: 18
+
+`k`s`k``sss
+xyzw : y(z); y(z, w); y(z, w, s(y(z), w))
+  y(z, w, s(y(z), w))
+applies: 18
+
+`s``ss``skk
+xy : x(y); y(x(y)); y(x(y)); y(x(y), y(x(y)))
+  y(x(y), y(x(y)))
+applies: 19
+
+`k``s`kss
+xyzw : z(w); y(z(w)); w(z(w)); y(z(w), w(z(w)))
+  y(z(w), w(z(w)))
+applies: 17
+
+``ss``ss`kk
+xy : x(y); x(y); x(y, k(y)); x(y, x(y, k(y)))
+  x(y, x(y, k(y)))
+applies: 19
+
+``ss``ss`ks
+xy : x(y); x(y); x(y, s(y)); x(y, x(y, s(y)))
+  x(y, x(y, s(y)))
+applies: 19
+
+`s`k`k`s`ks
+xyzwvq : x(y); z(w); z(w, q); v(q); z(w, q, v(q))
+  z(w, q, v(q))
+applies: 20
+
+``s`s`ssk
+xy : x(k(x)); x(k(x), y); x(y); x(k(x), y, x(y))
+  x(k(x), y, x(y))
+applies: 18
+
+`s`k`k`k`ss
+xyzwvq : x(y); w(v); v(q); w(v, q); v(q, w(v, q))
+  v(q, w(v, q))
+applies: 20
+
+`k`s`k`k`ss
+xyzwvq : y(z); w(v); v(q); w(v, q); v(q, w(v, q))
+  v(q, w(v, q))
+applies: 20
+
+`s`k`s`s`sk
+xyz : x(y); x(y, z); z(x(y, z)); x(y, z, z(x(y, z)))
+  z(x(y, z))
+applies: 20
+
+```ss`ss`ks
+xyz : x(z); x(z, s(z)); y(z); x(z, s(z), y(z))
+  x(z, s(z), y(z))
+applies: 23
+
+``s`sk`k`ss
+xyzw : x(s(s)); y(z); z(w); y(z, w); z(w, y(z, w))
+  z(w, y(z, w))
+applies: 21
+
+`s`s``s`kks
+xyzw : x(y); y(x(y)); x(y, w); z(w); x(y, w, z(w))
+  x(y, w, z(w))
+applies: 21
+
+``s`sk`ss
+xyz : x(s(s, x)); x(y); y(z); x(y, z); y(z, x(y, z))
+  y(z, x(y, z))
+applies: 19
+
+``s`s`kss
+xyz : x(s(x)); x(s(x), z); y(z); x(s(x), z, y(z))
+  x(s(x), z, y(z))
+applies: 16
+
+``s`s`ksk
+xyz : x(k(x)); x(k(x), z); y(z); x(k(x), z, y(z))
+  x(k(x), z, y(z))
+applies: 16
+
+`k`s``s`sks
+xyzw : z(s(z)); y(z); z(w); y(z, w); z(w, y(z, w))
+  z(w, y(z, w))
+applies: 21
+
+`s``s``ssks
+xy : y(s(y)); y(s(y), y); x(y); y(s(y), y, x(y))
+  y(s(y), y, x(y))
+applies: 19
+
+``s`s``skks
+xy : x(s(x)); x(y); x(s(x), y); x(y, x(s(x), y))
+  x(y, x(s(x), y))
+applies: 19
+
+`k`k``s`kss
+xyzwv : w(v); z(w(v)); v(w(v)); z(w(v), v(w(v)))
+  z(w(v), v(w(v)))
+applies: 19
+
+`s``s``sskk
+xy : y(k(y)); y(k(y), y); x(y); y(k(y), y, x(y))
+  y(k(y), y, x(y))
+applies: 19
+
+`s``s`ssk
+xy : y(k(y)); x(y); y(k(y), x(y)); y(y(k(y), x(y)))
+  y(y(k(y), x(y)))
+applies: 18
+
+``s`s`s`kks
+xyz : x(s(x)); x(z); x(s(x), z); x(z, x(s(x), z))
+  x(z, x(s(x), z))
+applies: 20
+
+`s`s``s`ksk
+xyz : x(y); y(x(y)); y(x(y), z); x(y, y(x(y), z))
+  x(y, y(x(y), z))
+applies: 20
+
+```sss`k`ss
+xyz : x(y); y(z); x(y, z); y(z, s(z, x(y, z)))
+  y(z, s(z, x(y, z)))
+applies: 26
+
+`k``s`s`ssk
+xyz : y(k(y)); y(k(y), z); y(z); y(k(y), z, y(z))
+  y(k(y), z, y(z))
+applies: 20
+
+``s``sss`ss
+x : x(s(s, x)); x(s(s, x), s(x, s(s, x)))
+  x(s(s, x), s(x, s(s, x)))
+applies: 15
+
+`k``s`sk`ss
+xyzw : y(s(s, y)); y(z); z(w); y(z, w); z(w, y(z, w))
+  z(w, y(z, w))
+applies: 21
+
+``s`k`sss
+xyz : y(z); x(z); y(z); x(z, y(z)); y(z, x(z, y(z)))
+  y(z, x(z, y(z)))
+applies: 19
+
+`k``s`s`ksk
+xyzw : y(k(y)); y(k(y), w); z(w); y(k(y), w, z(w))
+  y(k(y), w, z(w))
+applies: 18
+
+`k``s`s`kss
+xyzw : y(s(y)); y(s(y), w); z(w); y(s(y), w, z(w))
+  y(s(y), w, z(w))
+applies: 18
+
+```ssk``sss
+x : x(s(s, s)); x(s(s, s), s(x, s(s, s)))
+  x(s(s, s), s(x, s(s, s)))
+applies: 18
+
+``s``sss`sk
+x : x(s(k, x)); x(s(k, x), s(x, s(k, x)))
+  x(s(k, x), s(x, s(k, x)))
+applies: 15
+
+`s``ss`s`ks
+xy : x(y); y(x(y)); y(x(y)); y(x(y), s(y(x(y))))
+  y(x(y), s(y(x(y))))
+applies: 19
+
+`s``ss`s`kk
+xy : x(y); y(x(y)); y(x(y)); y(x(y), k(y(x(y))))
+  y(x(y), k(y(x(y))))
+applies: 19
+
+``ss`s`s`sk
+xy : x(y); x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)))
+  x(y, y(x(y)))
+applies: 22
+
+`s`s`ks
+xyzw : x(y); y(x(y)); y(x(y), w); z(w); y(x(y), w, z(w))
+  y(x(y), w, z(w))
+applies: 16
+
+``ss`s`ss
+xy : x(y); x(y); y(x(y)); x(y, s(x(y), y(x(y))))
+  x(y, s(x(y), y(x(y))))
+applies: 18
+
+`s`k`ss
+xyzw : x(y); x(y, z); z(w); x(y, z, w); z(w, x(y, z, w))
+  z(w, x(y, z, w))
+applies: 16
+
+``s`ss`sk
+xy : x(s(k, x)); x(y); x(s(k, x), y); y(x(s(k, x), y))
+  y(x(s(k, x), y))
+applies: 18
+
+`s`s`s`sk
+xy : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y))))
+  x(y, y(x(y)))
+applies: 18
+
+``ss``sss
+xy : x(y); x(y); x(y, s(x, y)); x(y, x(y, s(x, y)))
+  x(y, x(y, s(x, y)))
+applies: 18
+
+`k`s``s`ssk
+xyz : z(k(z)); y(z); z(k(z), y(z)); z(z(k(z), y(z)))
+  z(z(k(z), y(z)))
+applies: 20
+
+`s`k``s`sks
+xyzw : x(y); x(y, s(x(y))); x(y, w); z(w); x(y, w, z(w))
+  x(y, w, z(w))
+applies: 21
+
+``s`ss`ks
+xyz : x(s); x(s, y); y(z); x(s, y, z); y(z, x(s, y, z))
+  y(z, x(s, y, z))
+applies: 19
+
+`k``s`k`sss
+xyzw : z(w); y(w); z(w); y(w, z(w)); z(w, y(w, z(w)))
+  z(w, y(w, z(w)))
+applies: 21
+
+``s`ks`s`ks
+xyzw : x(z); y(z); x(z, w); y(z, w); x(z, w, y(z, w))
+  x(z, w, y(z, w))
+applies: 21
+
+``s`sk`s`ks
+xyzw : x(s(k(s), x)); x(y); x(y, w); z(w); x(y, w, z(w))
+  x(y, w, z(w))
+applies: 21
+
+``s`k`s`kss
+xyzw : x(w); y(w); x(w, y(w)); z(w); x(w, y(w), z(w))
+  x(w, y(w), z(w))
+applies: 21
+
+``ss`s``ssk
+xy : x(y); x(y); y(x(y)); y(x(y), y); x(y, y(x(y), y))
+  x(y, y(x(y), y))
+applies: 22
+
+`s`s`k`k`ss
+xyzwv : x(y); y(x(y)); z(w); w(v); z(w, v); w(v, z(w, v))
+  w(v, z(w, v))
+applies: 22
+
+`s`s`s`k`ks
+xyzwv : x(y); y(x(y)); x(y, y(x(y))); z(v); w(v); z(v, w(v))
+  z(v, w(v))
+applies: 22
+
+`k```sss`ks
+xyzwv : y(w); z(w); y(w, v); z(w, v); y(w, v, z(w, v))
+  y(w, v, z(w, v))
+applies: 25
+
+`k``ss``sss
+xyz : y(z); y(z); y(z, s(y, z)); y(z, y(z, s(y, z)))
+  y(z, y(z, s(y, z)))
+applies: 20
+
+`s`s`k``ssk
+xyz : x(y); y(x(y)); y(x(y), z); y(x(y), z, y(x(y)))
+  y(x(y), z, y(x(y)))
+applies: 20
+
+``s`ks``sss
+xyz : x(z); x(z, s(x, z)); y(z); x(z, s(x, z), y(z))
+  x(z, s(x, z), y(z))
+applies: 20
+
+`k``ss`s`ss
+xyz : y(z); y(z); z(y(z)); y(z, s(y(z), z(y(z))))
+  y(z, s(y(z), z(y(z))))
+applies: 20
+
+`k``s`ss`sk
+xyz : y(s(k, y)); y(z); y(s(k, y), z); z(y(s(k, y), z))
+  z(y(s(k, y), z))
+applies: 20
+
+`s`k`s`ks
+xyzwv : x(y); x(y, z); x(y, z, v); w(v); x(y, z, v, w(v))
+  x(y, z, v, w(v))
+applies: 18
+
+`k`s`s`ks
+xyzwv : y(z); z(y(z)); z(y(z), v); w(v); z(y(z), v, w(v))
+  z(y(z), v, w(v))
+applies: 18
+
+`s`s``ssk
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), x(y))
+  x(y, y(x(y)), x(y))
+applies: 18
+
+`k`s`s`s`sk
+xyz : y(z); z(y(z)); y(z, z(y(z))); z(y(z), y(z, z(y(z))))
+  y(z, z(y(z)))
+applies: 20
+
+`k`s`k`ss
+xyzwv : y(z); y(z, w); w(v); y(z, w, v); w(v, y(z, w, v))
+  w(v, y(z, w, v))
+applies: 18
+
+`k``s`ss`ks
+xyzw : y(s); y(s, z); z(w); y(s, z, w); z(w, y(s, z, w))
+  z(w, y(s, z, w))
+applies: 21
+
+``s``ss`sss
+x : x(s(x)); x(s(x)); x(s(x), s(s(x), x(s(x))))
+  x(s(x), s(s(x), x(s(x))))
+applies: 18
+
+``s``ss`ssk
+x : x(k(x)); x(k(x)); x(k(x), s(k(x), x(k(x))))
+  x(k(x), s(k(x), x(k(x))))
+applies: 18
+
+``s``s`ksss
+xy : x(s(x, y)); y(s(x, y)); x(s(x, y), y(s(x, y)))
+  x(s(x, y), y(s(x, y)))
+applies: 19
+
+`k`s`k`s`ks
+xyzwvq : y(z); y(z, w); y(z, w, q); v(q); y(z, w, q, v(q))
+  y(z, w, q, v(q))
+applies: 20
+
+`s`ss
+xyz : x(y); y(x(y)); x(y, z); y(x(y), z); x(y, z, y(x(y), z))
+  x(y, z, y(x(y), z))
+applies: 14
+
+`k`s`s``ssk
+xyz : y(z); z(y(z)); y(z, z(y(z))); y(z, z(y(z)), y(z))
+  y(z, z(y(z)), y(z))
+applies: 20
+
+`k`k`s`s`ks
+xyzwvq : z(w); w(z(w)); w(z(w), q); v(q); w(z(w), q, v(q))
+  w(z(w), q, v(q))
+applies: 20
+
+`s`k``ss`ss
+xyz : x(y); x(y, z); x(y, z); x(y, z, s(z, x(y, z)))
+  x(y, z, s(z, x(y, z)))
+applies: 20
+
+`k`k`s`k`ss
+xyzwvq : z(w); z(w, v); v(q); z(w, v, q); v(q, z(w, v, q))
+  v(q, z(w, v, q))
+applies: 20
+
+``s`ks`ss
+xyz : x(z); y(z); z(y(z)); x(z, y(z)); z(y(z), x(z, y(z)))
+  z(y(z), x(z, y(z)))
+applies: 19
+
+`s``ss`s`sk
+xy : x(y); y(x(y)); y(x(y)); x(y, y(x(y))); y(x(y), y(x(y)))
+  y(x(y), y(x(y)))
+applies: 22
+
+```ssk`s`ks
+xyz : x(s(k(s))); x(s(k(s)), z); y(z); x(s(k(s)), z, y(z))
+  x(s(k(s)), z, y(z))
+applies: 20
+
+`s``ss`ss
+xy : x(y); y(x(y)); y(x(y)); y(x(y), s(x(y), y(x(y))))
+  y(x(y), s(x(y), y(x(y))))
+applies: 18
+
+``s`s`ks`ss
+xyz : x(s(s, x)); x(s(s, x), z); y(z); x(s(s, x), z, y(z))
+  x(s(s, x), z, y(z))
+applies: 17
+
+``s`s`ks`sk
+xyz : x(s(k, x)); x(s(k, x), z); y(z); x(s(k, x), z, y(z))
+  x(s(k, x), z, y(z))
+applies: 17
+
+`k`s`ss
+xyzw : y(z); z(y(z)); y(z, w); z(y(z), w); y(z, w, z(y(z), w))
+  y(z, w, z(y(z), w))
+applies: 16
+
+`k``s`ks`ss
+xyzw : y(w); z(w); w(z(w)); y(w, z(w)); w(z(w), y(w, z(w)))
+  w(z(w), y(w, z(w)))
+applies: 21
+
+`s`k``s`kss
+xyzw : x(y); z(w); x(y, z(w)); w(z(w)); x(y, z(w), w(z(w)))
+  x(y, z(w), w(z(w)))
+applies: 21
+
+````sss`ssk
+x : x(k(x)); x(k(x), s(s(s), k)); x(x(k(x), s(s(s), k)))
+  x(x(k(x), s(s(s), k)))
+applies: 27
+
+`s``ss``ssk
+xy : x(y); y(x(y)); y(x(y)); y(x(y), y); y(x(y), y(x(y), y))
+  y(x(y), y(x(y), y))
+applies: 22
+
+`s`s`s``skk
+xy : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y))))
+  y(x(y), x(y, y(x(y))))
+applies: 19
+
+`k`k`s`ss
+xyzwv : z(w); w(z(w)); z(w, v); w(z(w), v); z(w, v, w(z(w), v))
+  z(w, v, w(z(w), v))
+applies: 18
+
+`s``s`s`kss
+xyz : y(s(y)); x(y); y(s(y), z); x(y, z); y(s(y), z, x(y, z))
+  y(s(y), z, x(y, z))
+applies: 20
+
+`k`s``ss`ss
+xyz : y(z); z(y(z)); z(y(z)); z(y(z), s(y(z), z(y(z))))
+  z(y(z), s(y(z), z(y(z))))
+applies: 20
+
+`s``s`s`ksk
+xyz : y(k(y)); x(y); y(k(y), z); x(y, z); y(k(y), z, x(y, z))
+  y(k(y), z, x(y, z))
+applies: 20
+
+`s`s`s`s`kk
+xyz : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y))))
+  y(x(y), x(y, y(x(y))))
+applies: 20
+
+``s`kk`s`ss
+xyzw : x(z); z(x(z)); x(z, w); z(x(z), w); x(z, w, z(x(z), w))
+  x(z, w, z(x(z), w))
+applies: 21
+
+``s`s``ssks
+x : x(s(x)); x(s(x)); x(s(x), s(x)); x(s(x), x(s(x), s(x)))
+  x(s(x), x(s(x), s(x)))
+applies: 21
+
+`s`s`k``sss
+xyz : x(y); y(x(y)); y(x(y), z); y(x(y), z, s(y(x(y)), z))
+  y(x(y), z, s(y(x(y)), z))
+applies: 20
+
+`k`k`k`s`ss
+xyzwvq : w(v); v(w(v)); w(v, q); v(w(v), q); w(v, q, v(w(v), q))
+  w(v, q, v(w(v), q))
+applies: 20
+
+`s`k`s``sss
+xyz : x(y); x(y, z); z(x(y, z)); z(x(y, z), s(z, x(y, z)))
+  z(x(y, z), s(z, x(y, z)))
+applies: 20
+
+``s``s`sssk
+x : x(s(x)); x(s(x), k(x)); x(x(s(x), k(x))); x(x(s(x), k(x)), x)
+  x(x(s(x), k(x)), x)
+applies: 21
+
+``ss``ss`ss
+xy : x(y); x(y); x(y); x(y, s(y, x(y))); x(y, x(y, s(y, x(y))))
+  x(y, x(y, s(y, x(y))))
+applies: 22
+
+`s`s``ss`ks
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), s(y(x(y))))
+  x(y, y(x(y)), s(y(x(y))))
+applies: 19
+
+``ss``s`ssk
+xy : x(k(x)); x(y); x(k(x), y); x(x(k(x), y)); x(y, x(x(k(x), y)))
+  x(y, x(x(k(x), y)))
+applies: 22
+
+``s`s`s`ssk
+xy : x(k(x)); x(k(x), x); x(y); x(k(x), x, y); x(y, x(k(x), x, y))
+  x(y, x(k(x), x, y))
+applies: 22
+
+`s`s``ss`kk
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), k(y(x(y))))
+  x(y, y(x(y)), k(y(x(y))))
+applies: 19
+
+``s`s`k`sss
+xyz : x(s(x)); x(s(x), y); y(z); x(s(x), y, z); y(z, x(s(x), y, z))
+  y(z, x(s(x), y, z))
+applies: 20
+
+``s`k`ss`ss
+xyz : x(y); y(z); y(z); x(y, z); y(z, x(y, z)); y(z, y(z, x(y, z)))
+  y(z, y(z, x(y, z)))
+applies: 23
+
+``s`s`k`ssk
+xyz : x(k(x)); x(k(x), y); y(z); x(k(x), y, z); y(z, x(k(x), y, z))
+  y(z, x(k(x), y, z))
+applies: 20
+
+`s``s`kss
+xyz : x(y); x(y, z); y(x(y, z)); z(x(y, z)); y(x(y, z), z(x(y, z)))
+  y(x(y, z), z(x(y, z)))
+applies: 19
+
+``s`ss`k`ks
+xyzw : x(k(s)); x(k(s), y); x(k(s), y, w); z(w); x(k(s), y, w, z(w))
+  x(k(s), y, w, z(w))
+applies: 21
+
+`s```sss`ks
+xyzw : x(y); y(z); x(y, z); y(z, w); x(y, z, w); y(z, w, x(y, z, w))
+  y(z, w, x(y, z, w))
+applies: 27
+
+`s`k`k`s`ss
+xyzwv : x(y); z(w); w(z(w)); z(w, v); w(z(w), v); z(w, v, w(z(w), v))
+  z(w, v, w(z(w), v))
+applies: 22
+
+``s`s`s`sks
+xy : x(s(x)); x(s(x), s(x, x(s(x)))); x(y); x(s(x), y); x(y, x(s(x), y))
+  x(y, x(s(x), y))
+applies: 22
+
+`s``s`s`ssk
+xy : y(k(y)); x(y); y(k(y), x(y)); y(x(y)); y(k(y), x(y), y(x(y)))
+  y(k(y), x(y), y(x(y)))
+applies: 22
+
+`s`k``s`ssk
+xyz : x(y); x(y, k(x(y))); x(y, k(x(y)), z); x(y, x(y, k(x(y)), z))
+  x(y, x(y, k(x(y)), z))
+applies: 20
+
+`k`s``s`kss
+xyzw : y(z); y(z, w); z(y(z, w)); w(y(z, w)); z(y(z, w), w(y(z, w)))
+  z(y(z, w), w(y(z, w)))
+applies: 21
+
+`s``s``ssss
+xy : y(s(y)); y(s(y), s(y, s(y))); x(y); y(s(y), s(y, s(y)), x(y))
+  y(s(y), s(y, s(y)), x(y))
+applies: 19
+
+`s`s`k`ss
+xyzw : x(y); y(x(y)); y(x(y), z); z(w); y(x(y), z, w); z(w, y(x(y), z, w))
+  z(w, y(x(y), z, w))
+applies: 20
+
+`s``s``sssk
+xy : y(k(y)); y(k(y), s(y, k(y))); x(y); y(k(y), s(y, k(y)), x(y))
+  y(k(y), s(y, k(y)), x(y))
+applies: 19
+
+``s`k``ssss
+xy : x(s(s(x), y)); y(s(s(x), y)); x(s(s(x), y), y(s(s(x), y)))
+  x(s(s(x), y), y(s(s(x), y)))
+applies: 19
+
+`s``s`sk`ss
+xyz : y(s(s, y)); x(y); y(x(y)); x(y, z); y(x(y), z); x(y, z, y(x(y), z))
+  x(y, z, y(x(y), z))
+applies: 23
+
+`k`s`s`k`ss
+xyzwv : y(z); z(y(z)); z(y(z), w); w(v); z(y(z), w, v); w(v, z(y(z), w, v))
+  w(v, z(y(z), w, v))
+applies: 22
+
+`s`k`s`k`ss
+xyzwv : x(y); x(y, z); x(y, z, w); w(v); x(y, z, w, v); w(v, x(y, z, w, v))
+  w(v, x(y, z, w, v))
+applies: 22
+
+`s`s``ss`sk
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y))); x(y, y(x(y)), y(x(y)))
+  x(y, y(x(y)), y(x(y)))
+applies: 22
+
+`s`k`s`s`ks
+xyzwv : x(y); x(y, z); z(x(y, z)); z(x(y, z), v); w(v); z(x(y, z), v, w(v))
+  z(x(y, z), v, w(v))
+applies: 22
+
+`s`s`k`s`ks
+xyzwv : x(y); y(x(y)); y(x(y), z); y(x(y), z, v); w(v); y(x(y), z, v, w(v))
+  y(x(y), z, v, w(v))
+applies: 22
+
+`s``s`ss`sk
+xy : y(s(k, y)); x(y); y(x(y)); y(s(k, y), x(y)); x(y, y(s(k, y), x(y)))
+  x(y, y(s(k, y), x(y)))
+applies: 22
+
+`s`s``s`sks
+xyz : x(y); x(y, s(x(y))); y(x(y)); x(y, z); y(x(y), z); x(y, z, y(x(y), z))
+  x(y, z, y(x(y), z))
+applies: 23
+
+``s`sk`s`ss
+xyz : x(s(s(s), x)); x(y); y(x(y)); x(y, z); y(x(y), z); x(y, z, y(x(y), z))
+  x(y, z, y(x(y), z))
+applies: 23
+
+`s`s``sss
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), s(x(y), y(x(y))))
+  x(y, y(x(y)), s(x(y), y(x(y))))
+applies: 18
+
+`s``s`k`sss
+xyz : x(y); x(y, z); y(z); x(y, z); y(z, x(y, z)); x(y, z, y(z, x(y, z)))
+  x(y, z, y(z, x(y, z)))
+applies: 23
+
+```s`ssk`ss
+xyz : x(y); x(y, s(s, y)); y(z); x(y, s(s, y), z); y(z, x(y, s(s, y), z))
+  y(z, x(y, s(s, y), z))
+applies: 29
+
+```sss``sss
+x : x(s(s(s, s), x)); x(s(s(s, s), x), s(x, s(s(s, s), x)))
+  x(s(s(s, s), x), s(x, s(s(s, s), x)))
+applies: 18
+
+``ss`s``sss
+xy : x(y); x(y); y(x(y)); y(x(y), s(y, x(y))); x(y, y(x(y), s(y, x(y))))
+  x(y, y(x(y), s(y, x(y))))
+applies: 22
+
+``s`ss`s`sk
+xy : x(s(s(k), x)); x(y); y(x(y)); x(s(s(k), x), y); x(y, x(s(s(k), x), y))
+  x(y, x(s(s(k), x), y))
+applies: 22
+
+`k`s`s``sss
+xyz : y(z); z(y(z)); y(z, z(y(z))); y(z, z(y(z)), s(y(z), z(y(z))))
+  y(z, z(y(z)), s(y(z), z(y(z))))
+applies: 20
+
+`s``s`ss`ks
+xyz : y(s); x(y); y(s, x(y)); x(y, z); y(s, x(y), z); x(y, z, y(s, x(y), z))
+  x(y, z, y(s, x(y), z))
+applies: 23
+
+```sss`s`ks
+xyz : x(s(s(k(s)), x)); x(s(s(k(s)), x), z); y(z); x(s(s(k(s)), x), z, y(z))
+  x(s(s(k(s)), x), z, y(z))
+applies: 20
+
+``s`s`s`kss
+xyz : x(s(x)); x(z); x(s(x), z); x(z, x(s(x), z)); y(z); x(z, x(s(x), z), y(z))
+  x(z, x(s(x), z), y(z))
+applies: 23
+
+``s`ss``ssk
+xy : x(s(x, k(x))); x(y); x(y, x); x(s(x, k(x)), y); x(y, x, x(s(x, k(x)), y))
+  x(y, x, x(s(x, k(x)), y))
+applies: 22
+
+`s`s`s`ks
+xyzw : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), w); z(w); x(y, y(x(y)), w, z(w))
+  x(y, y(x(y)), w, z(w))
+applies: 20
+
+``ss`s`s`ss
+xy : x(y); x(y); y(x(y)); x(y, y(x(y))); x(y, s(y(x(y)), x(y, y(x(y)))))
+  x(y, s(y(x(y)), x(y, y(x(y)))))
+applies: 22
+
+``s`ks`s`ss
+xyz : x(z); z(x(z)); y(z); x(z, y(z)); z(x(z), y(z)); x(z, y(z), z(x(z), y(z)))
+  x(z, y(z), z(x(z), y(z)))
+applies: 23
+
+`s``s`ks`ss
+xyz : x(y); y(z); x(y, z); z(x(y, z)); y(z, x(y, z)); z(x(y, z), y(z, x(y, z)))
+  z(x(y, z), y(z, x(y, z)))
+applies: 23
+
+`k`s`s`s`ks
+xyzwv : y(z); z(y(z)); y(z, z(y(z))); y(z, z(y(z)), v); w(v); y(z, z(y(z)), v, w(v))
+  y(z, z(y(z)), v, w(v))
+applies: 22
+
+`s``ss``sss
+xy : x(y); y(x(y)); y(x(y)); y(x(y), s(y, x(y))); y(x(y), y(x(y), s(y, x(y))))
+  y(x(y), y(x(y), s(y, x(y))))
+applies: 22
+
+``s`k`s`sss
+xyz : y(s(x, y)); x(z); y(z); x(z, y(z)); y(s(x, y), z); x(z, y(z), y(s(x, y), z))
+  x(z, y(z), y(s(x, y), z))
+applies: 23
+
+``s`sss
+xy : x(s(x)); x(s(x), y); x(x(s(x), y)); y(x(s(x), y)); x(x(s(x), y), y(x(s(x), y)))
+  x(x(s(x), y), y(x(s(x), y)))
+applies: 17
+
+`s`k`s`ss
+xyzw : x(y); x(y, z); z(x(y, z)); x(y, z, w); z(x(y, z), w); x(y, z, w, z(x(y, z), w))
+  x(y, z, w, z(x(y, z), w))
+applies: 20
+
+`k``s`sss
+xyz : y(s(y)); y(s(y), z); y(y(s(y), z)); z(y(s(y), z)); y(y(s(y), z), z(y(s(y), z)))
+  y(y(s(y), z), z(y(s(y), z)))
+applies: 19
+
+`k`s`k`s`ss
+xyzwv : y(z); y(z, w); w(y(z, w)); y(z, w, v); w(y(z, w), v); y(z, w, v, w(y(z, w), v))
+  y(z, w, v, w(y(z, w), v))
+applies: 22
+
+`s``ss`s`ss
+xy : x(y); y(x(y)); y(x(y)); x(y, y(x(y))); y(x(y), s(y(x(y)), x(y, y(x(y)))))
+  y(x(y), s(y(x(y)), x(y, y(x(y)))))
+applies: 22
+
+`k`k``s`sss
+xyzw : z(s(z)); z(s(z), w); z(z(s(z), w)); w(z(s(z), w)); z(z(s(z), w), w(z(s(z), w)))
+  z(z(s(z), w), w(z(s(z), w)))
+applies: 21
+
+`s`s``s`ssk
+xy : x(y); x(y, k(x(y))); y(x(y)); x(y, k(x(y)), y(x(y))); x(y, x(y, k(x(y)), y(x(y))))
+  x(y, x(y, k(x(y)), y(x(y))))
+applies: 22
+
+``s`s`sss
+xy : x(s(x)); x(s(x), y); x(y); x(s(x), y); x(y, x(s(x), y)); x(s(x), y, x(y, x(s(x), y)))
+  x(s(x), y, x(y, x(s(x), y)))
+applies: 21
+
+`s`s`ss
+xyz : x(y); y(x(y)); x(y, y(x(y))); y(x(y), z); x(y, y(x(y)), z); y(x(y), z, x(y, y(x(y)), z))
+  y(x(y), z, x(y, y(x(y)), z))
+applies: 18
+
+``s`s`ss`sk
+xy : x(s(k, x)); x(x(s(k, x))); x(s(k, x), y); x(s(k, x), y); x(s(k, x), y, x(s(k, x), y))
+  x(s(k, x), y, x(s(k, x), y))
+applies: 22
+
+`s`s`s`s`sk
+xy : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); x(y, y(x(y)), y(x(y), x(y, y(x(y)))))
+  y(x(y), x(y, y(x(y))))
+applies: 22
+
+`k``s`s`sss
+xyz : y(s(y)); y(s(y), z); y(z); y(s(y), z); y(z, y(s(y), z)); y(s(y), z, y(z, y(s(y), z)))
+  y(s(y), z, y(z, y(s(y), z)))
+applies: 23
+
+``s``s`ssss
+x : x(s(x)); x(s(x), s(x)); x(x(s(x), s(x))); x(x(s(x), s(x)), s(x, x(s(x), s(x))))
+  x(x(s(x), s(x)), s(x, x(s(x), s(x))))
+applies: 21
+
+`s`s`s``ssk
+xy : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); y(x(y), x(y, y(x(y))), y(x(y)))
+  y(x(y), x(y, y(x(y))), y(x(y)))
+applies: 22
+
+`k`s`s`ss
+xyzw : y(z); z(y(z)); y(z, z(y(z))); z(y(z), w); y(z, z(y(z)), w); z(y(z), w, y(z, z(y(z)), w))
+  z(y(z), w, y(z, z(y(z)), w))
+applies: 20
+
+``s`ss``sss
+xy : x(s(x, s(x))); x(y); x(y, s(x, y)); x(s(x, s(x)), y); x(y, s(x, y), x(s(x, s(x)), y))
+  x(y, s(x, y), x(s(x, s(x)), y))
+applies: 22
+
+`k`k`s`s`ss
+xyzwv : z(w); w(z(w)); z(w, w(z(w))); w(z(w), v); z(w, w(z(w)), v); w(z(w), v, z(w, w(z(w)), v))
+  w(z(w), v, z(w, w(z(w)), v))
+applies: 22
+
+`s`s``s`kss
+xyz : x(y); y(x(y)); y(x(y), z); x(y, y(x(y), z)); z(y(x(y), z)); x(y, y(x(y), z), z(y(x(y), z)))
+  x(y, y(x(y), z), z(y(x(y), z)))
+applies: 23
+
+`s`s``ss`ss
+xy : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y))); x(y, y(x(y)), s(y(x(y)), x(y, y(x(y)))))
+  x(y, y(x(y)), s(y(x(y)), x(y, y(x(y)))))
+applies: 22
+
+``s`ss`s`ks
+xyz : x(s(k(s), x)); x(y); x(s(k(s), x), y); x(y, z); x(s(k(s), x), y, z); x(y, z, x(s(k(s), x), y, z))
+  x(y, z, x(s(k(s), x), y, z))
+applies: 23
+
+`s`s`s`k`ss
+xyzw : x(y); y(x(y)); x(y, y(x(y))); x(y, y(x(y)), z); z(w); x(y, y(x(y)), z, w); z(w, x(y, y(x(y)), z, w))
+  z(w, x(y, y(x(y)), z, w))
+applies: 24
+
+``s`ss`k`ss
+xyz : x(s(s)); x(s(s), y); y(x(s(s), y)); x(s(s), y, z); y(x(s(s), y), z); x(s(s), y, z, y(x(s(s), y), z))
+  x(s(s), y, z, y(x(s(s), y), z))
+applies: 23
+
+`k```ssk`ss
+xyzw : y(s(s)); y(s(s), z); z(y(s(s), z)); y(s(s), z, w); z(y(s(s), z), w); y(s(s), z, w, z(y(s(s), z), w))
+  y(s(s), z, w, z(y(s(s), z), w))
+applies: 27
+
+`s`s`k`s`ss
+xyzw : x(y); y(x(y)); y(x(y), z); z(y(x(y), z)); y(x(y), z, w); z(y(x(y), z), w); y(x(y), z, w, z(y(x(y), z), w))
+  y(x(y), z, w, z(y(x(y), z), w))
+applies: 24
+
+`s``s`sss
+xy : y(s(y)); x(y); y(s(y), x(y)); y(y(s(y), x(y))); x(y, y(s(y), x(y))); y(y(s(y), x(y)), x(y, y(s(y), x(y))))
+  y(y(s(y), x(y)), x(y, y(s(y), x(y))))
+applies: 21
+
+```ss`ss`ss
+xy : x(s(x, s(s, x))); x(y); x(y); x(y, s(y, x(y))); x(s(x, s(s, x)), y); x(y, s(y, x(y)), x(s(x, s(s, x)), y))
+  x(y, s(y, x(y)), x(s(x, s(s, x)), y))
+applies: 28
+
+`k`s``s`sss
+xyz : z(s(z)); y(z); z(s(z), y(z)); z(z(s(z), y(z))); y(z, z(s(z), y(z))); z(z(s(z), y(z)), y(z, z(s(z), y(z))))
+  z(z(s(z), y(z)), y(z, z(s(z), y(z))))
+applies: 23
+
+``s`ss`ss
+xy : x(s(s, x)); x(y); x(s(s, x), y); y(x(s(s, x), y)); x(y, x(s(s, x), y)); y(x(s(s, x), y), x(y, x(s(s, x), y)))
+  y(x(s(s, x), y), x(y, x(s(s, x), y)))
+applies: 21
+
+`k``s`ss`ss
+xyz : y(s(s, y)); y(z); y(s(s, y), z); z(y(s(s, y), z)); y(z, y(s(s, y), z)); z(y(s(s, y), z), y(z, y(s(s, y), z)))
+  z(y(s(s, y), z), y(z, y(s(s, y), z)))
+applies: 23
+
+``s`s``ssss
+x : x(s(x)); x(s(s(x), x(s(x)))); x(s(x), s(s(x), x(s(x)))); x(s(s(x), x(s(x))), x(s(x), s(s(x), x(s(x)))))
+  x(s(s(x), x(s(x))), x(s(x), s(s(x), x(s(x)))))
+applies: 21
+
+`s`s`s`s`ks
+xyzw : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); y(x(y), x(y, y(x(y))), w); z(w); y(x(y), x(y, y(x(y))), w, z(w))
+  y(x(y), x(y, y(x(y))), w, z(w))
+applies: 24
+
+```sss`s`sk
+x : x(s(s(s(k)), x)); x(x(s(s(s(k)), x))); x(s(s(s(k)), x), x(x(s(s(s(k)), x)))); x(x(s(s(s(k)), x)), x(s(s(s(k)), x), x(x(s(s(s(k)), x)))))
+  x(s(s(s(k)), x))
+applies: 27
+
+`s``s`s`sss
+xy : y(s(y)); x(y); y(s(y), x(y)); y(x(y)); y(s(y), x(y)); y(x(y), y(s(y), x(y))); y(s(y), x(y), y(x(y), y(s(y), x(y))))
+  y(s(y), x(y), y(x(y), y(s(y), x(y))))
+applies: 25
+
+`s`s`s``sss
+xy : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); y(x(y), x(y, y(x(y))), s(y(x(y)), x(y, y(x(y)))))
+  y(x(y), x(y, y(x(y))), s(y(x(y)), x(y, y(x(y)))))
+applies: 22
+
+``ss``s`sss
+xy : x(s(x)); x(y); x(s(x), y); x(x(s(x), y)); y(x(s(x), y)); x(x(s(x), y), y(x(s(x), y))); x(y, x(x(s(x), y), y(x(s(x), y))))
+  x(y, x(x(s(x), y), y(x(s(x), y))))
+applies: 25
+
+```ssk`s`ss
+xy : x(s(s(s))); x(s(s(s)), y); x(s(s(s)), y); y(x(s(s(s)), y)); x(s(s(s)), y, s(x(s(s(s)), y), y(x(s(s(s)), y))))
+  x(s(s(s)), y, s(x(s(s(s)), y), y(x(s(s(s)), y))))
+applies: 28
+
+`s`k`s`s`ss
+xyzw : x(y); x(y, z); z(x(y, z)); x(y, z, z(x(y, z))); z(x(y, z), w); x(y, z, z(x(y, z)), w); z(x(y, z), w, x(y, z, z(x(y, z)), w))
+  z(x(y, z), w, x(y, z, z(x(y, z)), w))
+applies: 24
+
+`s`k``s`sss
+xyz : x(y); x(y, s(x(y))); x(y, s(x(y)), z); x(y, x(y, s(x(y)), z)); z(x(y, s(x(y)), z)); x(y, x(y, s(x(y)), z), z(x(y, s(x(y)), z)))
+  x(y, x(y, s(x(y)), z), z(x(y, s(x(y)), z)))
+applies: 23
+
+`s```ssk`ss
+xyz : y(s(s)); x(y); y(s(s), x(y)); x(y, y(s(s), x(y))); y(s(s), x(y), z); x(y, y(s(s), x(y)), z); y(s(s), x(y), z, x(y, y(s(s), x(y)), z))
+  y(s(s), x(y), z, x(y, y(s(s), x(y)), z))
+applies: 29
+
+``s`s`s`sss
+xy : x(s(x)); x(s(x), s(x, x(s(x)))); x(y); x(s(x), y); x(y, x(s(x), y)); x(s(x), s(x, x(s(x))), y); x(y, x(s(x), y), x(s(x), s(x, x(s(x))), y))
+  x(y, x(s(x), y), x(s(x), s(x, x(s(x))), y))
+applies: 25
+
+`s`s`s`ss
+xyz : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); x(y, y(x(y)), z); y(x(y), x(y, y(x(y))), z); x(y, y(x(y)), z, y(x(y), x(y, y(x(y))), z))
+  x(y, y(x(y)), z, y(x(y), x(y, y(x(y))), z))
+applies: 22
+
+`k`s`s`s`ss
+xyzw : y(z); z(y(z)); y(z, z(y(z))); z(y(z), y(z, z(y(z)))); y(z, z(y(z)), w); z(y(z), y(z, z(y(z))), w); y(z, z(y(z)), w, z(y(z), y(z, z(y(z))), w))
+  y(z, z(y(z)), w, z(y(z), y(z, z(y(z))), w))
+applies: 24
+
+`s``s`ss`ss
+xy : y(s(s, y)); x(y); y(x(y)); y(s(s, y), x(y)); x(y, y(s(s, y), x(y))); y(x(y), y(s(s, y), x(y))); x(y, y(s(s, y), x(y)), y(x(y), y(s(s, y), x(y))))
+  x(y, y(s(s, y), x(y)), y(x(y), y(s(s, y), x(y))))
+applies: 25
+
+``s`ss`s`ss
+xy : x(s(s(s), x)); x(y); y(x(y)); x(s(s(s), x), y); x(y, x(s(s(s), x), y)); y(x(y), x(s(s(s), x), y)); x(y, x(s(s(s), x), y), y(x(y), x(s(s(s), x), y)))
+  x(y, x(s(s(s), x), y), y(x(y), x(s(s(s), x), y)))
+applies: 25
+
+`k```sss`ss
+xyz : y(s(s(s), y)); y(z); z(y(z)); y(s(s(s), y), z); y(z, y(s(s(s), y), z)); z(y(z), y(s(s(s), y), z)); y(z, y(s(s(s), y), z), z(y(z), y(s(s(s), y), z)))
+  y(z, y(s(s(s), y), z), z(y(z), y(s(s(s), y), z)))
+applies: 29
+
+``s`s`ss`ss
+xy : x(s(s, x)); x(x(s(s, x))); x(s(s, x), y); x(s(s, x), y); x(x(s(s, x)), y); x(s(s, x), y, x(x(s(s, x)), y)); x(s(s, x), y, x(s(s, x), y, x(x(s(s, x)), y)))
+  x(s(s, x), y, x(s(s, x), y, x(x(s(s, x)), y)))
+applies: 25
+
+`s`s``s`sss
+xy : x(y); x(y, s(x(y))); y(x(y)); x(y, s(x(y)), y(x(y))); x(y, x(y, s(x(y)), y(x(y)))); y(x(y), x(y, s(x(y)), y(x(y)))); x(y, x(y, s(x(y)), y(x(y))), y(x(y), x(y, s(x(y)), y(x(y)))))
+  x(y, x(y, s(x(y)), y(x(y))), y(x(y), x(y, s(x(y)), y(x(y)))))
+applies: 25
+
+`s```sss`ss
+xy : y(s(s(s), y)); x(y); y(x(y)); x(y, y(x(y))); y(s(s(s), y), x(y)); y(x(y), y(s(s(s), y), x(y))); x(y, y(x(y)), y(s(s(s), y), x(y))); y(x(y), y(s(s(s), y), x(y)), x(y, y(x(y)), y(s(s(s), y), x(y))))
+  y(x(y), y(s(s(s), y), x(y)), x(y, y(x(y)), y(s(s(s), y), x(y))))
+applies: 31
+
+`s`s`s`s`ss
+xyz : x(y); y(x(y)); x(y, y(x(y))); y(x(y), x(y, y(x(y)))); x(y, y(x(y)), y(x(y), x(y, y(x(y))))); y(x(y), x(y, y(x(y))), z); x(y, y(x(y)), y(x(y), x(y, y(x(y)))), z); y(x(y), x(y, y(x(y))), z, x(y, y(x(y)), y(x(y), x(y, y(x(y)))), z))
+  y(x(y), x(y, y(x(y))), z, x(y, y(x(y)), y(x(y), x(y, y(x(y)))), z))
+applies: 26
+
+```s`sss`ss
+xy : x(s(x, s(s(s), x))); x(x(s(x, s(s(s), x)))); x(x(s(x, s(s(s), x)))); x(s(x, s(s(s), x)), x(x(s(x, s(s(s), x))))); x(x(s(x, s(s(s), x))), s(x(x(s(x, s(s(s), x)))), x(s(x, s(s(s), x)), x(x(s(x, s(s(s), x))))))); x(s(x, s(s(s), x)), y); x(x(s(x, s(s(s), x))), s(x(x(s(x, s(s(s), x)))), x(s(x, s(s(s), x)), x(x(s(x, s(s(s), x)))))), y); x(s(x, s(s(s), x)), y, x(x(s(x, s(s(s), x))), s(x(x(s(x, s(s(s), x)))), x(s(x, s(s(s), x)), x(x(s(x, s(s(s), x)))))), y))
+  x(s(x, s(s(s), x)), y, x(x(s(x, s(s(s), x))), s(x(x(s(x, s(s(s), x)))), x(s(x, s(s(s), x)), x(x(s(x, s(s(s), x)))))), y))
+applies: 37
+
+```sss`s`ss
+xy : x(s(s(s(s)), x)); x(x(s(s(s(s)), x))); x(s(s(s(s)), x), x(x(s(s(s(s)), x)))); x(x(s(s(s(s)), x)), x(s(s(s(s)), x), x(x(s(s(s(s)), x))))); x(s(s(s(s)), x), y); x(s(s(s(s)), x), x(x(s(s(s(s)), x))), y); x(x(s(s(s(s)), x)), x(s(s(s(s)), x), x(x(s(s(s(s)), x)))), y); x(s(s(s(s)), x), x(x(s(s(s(s)), x))), y, x(x(s(s(s(s)), x)), x(s(s(s(s)), x), x(x(s(s(s(s)), x)))), y)); x(s(s(s(s)), x), y, x(s(s(s(s)), x), x(x(s(s(s(s)), x))), y, x(x(s(s(s(s)), x)), x(s(s(s(s)), x), x(x(s(s(s(s)), x)))), y)))
+  x(s(s(s(s)), x), y, x(s(s(s(s)), x), x(x(s(s(s(s)), x))), y, x(x(s(s(s(s)), x)), x(s(s(s(s)), x), x(x(s(s(s(s)), x)))), y)))
+applies: 34
+
+````sss`sss
+x : x(s(x)); x(s(x), s(s(s(s), s), x)); x(x(s(x), s(s(s(s), s), x))); x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x)))); x(x(s(x), s(s(s(s), s), x))); x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))); x(s(x), s(s(s(s), s), x), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x))))); x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x))))); x(s(x), s(s(s(s), s), x), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))), x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))))); x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))), x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))))))
+  x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))), x(x(s(x), s(s(s(s), s), x)), x(s(x), s(s(s(s), s), x), s(x(s(x), s(s(s(s), s), x))), x(x(s(x), s(s(s(s), s), x)))))))
+applies: 45

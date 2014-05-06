@@ -1,0 +1,2 @@
+class Tactic < Hash
+end

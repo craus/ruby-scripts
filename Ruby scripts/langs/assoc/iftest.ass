@@ -1,0 +1,8 @@
+read x
+goto first x
+first 1: write 0
+exit
+first 0: read x
+goto second x
+second 0: write 1
+second 1: exit

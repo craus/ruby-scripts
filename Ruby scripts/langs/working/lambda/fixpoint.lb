@@ -1,0 +1,4 @@
+a = (\x\y y(xxy))
+fp = (aa)
+give = (\x\y yx)
+main = give (fp give)

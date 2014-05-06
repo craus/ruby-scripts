@@ -1,0 +1,3 @@
+Finished: 2625
+Unfinished: 648
+Max length: 14

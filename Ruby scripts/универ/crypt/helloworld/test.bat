@@ -1,0 +1,3 @@
+test_perm
+test_repl
+test_xor

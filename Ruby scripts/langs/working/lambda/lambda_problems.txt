@@ -1,0 +1,18 @@
+i = \x x
+k = \x\y x
+t = \x\y x
+f = \x\y y
+s = \x\y\z xz(yz)
+b = \x\y\z x(yz)
+c = \x\y\z xzy
+w = \x\y xyy
+g = \x\y yx
+p = \x\y\z zxy
+r = \x\y\z zyx
+n = kk
+e = g(k(k0))
+
+1) p = \x x(ks)
+2) 11 = pp = p(ks) = ks(ks) = s
+3) 12 = ps = s(ks)
+

@@ -1,0 +1,4 @@
+loop: read
+set ` write ` arg ` result ` value
+write: write 
+write next = loop

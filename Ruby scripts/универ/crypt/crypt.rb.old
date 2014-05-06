@@ -1,0 +1,45 @@
+def write filename, data 
+  File.open(filename, 'w') {|f| f.write(data) }
+end
+
+def permute permutation,a 
+  permutation.map{|x| a[x]}
+end
+
+def reverse a
+  (0...a.size).to_a.map{|i| a.index i} 
+end
+
+def blockify s, block_length
+  s << 0 if s.size % block_length != 0  
+  s << s[rand(s.size)] while s.size % block_length != 0
+  n = s.size / block_length
+  (0...n).to_a.map{|i| s[i*block_length, block_length]}
+end
+
+def crypt input, permutation
+  blockify(input, permutation.size).map{|x| permute(permutation, x)}.join
+end
+
+def uncrypt crypted, key
+  crypt(crypted, reverse(key)).split(0.chr)[0] 
+end
+
+def read_key filename 
+  IO.read(filename).split.map &:to_i
+end
+
+def generate_key length
+  (0...length).to_a.shuffle
+end
+
+if ARGV[0] == 'generate' # >permutation generate key00001.key 5
+	write ARGV[1], generate_key(ARGV[2].to_i).join(' ')
+elsif ARGV[0] == 'crypt' # >permutation crypt input.txt crypted.txt key00001.key
+	write ARGV[2], crypt(IO.read(ARGV[1]), read_key(ARGV[3]))
+elsif ARGV[0] == 'uncrypt' # >permutation uncrypt crypted.txt output.txt key00001.key
+	write ARGV[2], uncrypt(IO.read(ARGV[1]), read_key(ARGV[3]))
+else
+	p "unknown command: #{ARGV[0].inspect}"
+end
+

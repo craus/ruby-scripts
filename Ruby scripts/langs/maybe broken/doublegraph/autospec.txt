@@ -1,0 +1,3 @@
+current line = main
+action: action next = (current line) command
+set: 

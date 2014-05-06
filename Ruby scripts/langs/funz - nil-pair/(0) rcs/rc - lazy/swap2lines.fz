@@ -1,0 +1,3 @@
+use std
+sout2rev 2s is both sout second 2s sout first 2s
+main is sout2rev pair linein linein

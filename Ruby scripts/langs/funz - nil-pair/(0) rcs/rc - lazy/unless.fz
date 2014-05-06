@@ -1,0 +1,12 @@
+use std 
+
+'A' is char 0 1 0 0 0 0 0 1
+'B' is char 0 1 0 0 0 0 1 0
+
+unless x y z is if not x y z
+
+iff x y z is unless not x y z
+
+case c1 c2 is iff nil then cout c1 else cout c2
+
+main is unless nil cout 'A' cout 'B'

@@ -1,0 +1,4 @@
+use std
+inc2 x y z = x y (y z)
+inc x y z = y(x y z)
+sum x y z w = give inc z w = x inc y z w = x z (y z w)

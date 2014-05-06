@@ -1,0 +1,3 @@
+use std
+sout2rev x y is both sout y sout x
+#main is sout2rev linein linein

@@ -1,0 +1,4 @@
+use std
+p = pair 3 5
+first p .! r
+second p .* r

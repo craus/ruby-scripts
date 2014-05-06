@@ -1,0 +1,5 @@
+use std
+#sout2rev x y is both sout y sout x
+#main is sout2rev linein linein
+#main is sout pair pair pair pair nil 'A' 'B' 'A' 'C'
+main is eq nil nil

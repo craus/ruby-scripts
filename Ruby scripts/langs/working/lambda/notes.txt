@@ -1,0 +1,97 @@
+0 x y = y
+0: x y -> y
+0: x -> y -> y
+true x y = x
+true: x -> y -> x
+
+first p = p true
+first: p -> p x -> y -> x
+pair: 
+
+false x y = y
+
+second p = p false
+
+readdigit =
+  ?0 (pair true 0)
+  ``?1 (pair true 1)
+  ``?2 (pair true 2)
+  ``?3 (pair true 3)
+  ``?4 (pair true 4)
+  ``?5 (pair true 5)
+  ``?6 (pair true 6)
+  ``?7 (pair true 7)
+  ``?8 (pair true 8)
+  ``?9 (pair true 9)
+  (pair false 0)
+
+give: x f -> fx
+
+int := \x -> pair true x
+nil := pair false 0
+
+  
+readdigit = ?0 (pair true 0) ``?1 (pair true 1) (pair false 0)
+readdigit := \x ?0 (int 0) \x (``?1 (int 1) (pair false 0) x) x
+
+readdigit x = ?0 (int 0) \x (``?1 (int 1) (pair false 0) x) x
+
+give := \x\y y x
+
+0 x y = y
+
+0 := \x\y y
+1 := \x\y xy
+2 := \x\y x`xy
+3 := \x\y x`x`xy
+
+int 1 0 4 8 5 7 6
+
+true  := \x\y x
+false := \x\y y
+and   := \x\y x y false
+or    := \x\y x true y
+not   := \x false true
+if :=
+
+pair := \x\y\z z x y
+first := \p p \x\y x
+
+
+
+
+| second readdigit .* 
+second readdigit | .* 
+second[readdigit] | .* 
+| readdigit false .*
+readdigit | false .*
+| ?0 (pair true 0) ``?1 (pair true 1) (pair false 0) false .*
+?0 | (pair true 0) ``?1 (pair true 1) (pair false 0) false .*
+| true (pair true 0) ``?1 (pair true 1) (pair false 0) false .*
+true (pair true | 0) ``?1 (pair true 1) (pair false 0) false .*
+true (pair[true] | 0) ``?1 (pair true 1) (pair false 0) false .*
+true (pair[true 0]) | ``?1 (pair true 1) (pair false 0) false .*
+true pair[true 0] | ``?1 (pair true 1) (pair false 0) false .*
+true[pair[true 0]] | ``?1 (pair true 1) (pair false 0) false .*
+true[pair[true 0]] ``?1 (pair true | 1) (pair false 0) false .*
+true[pair[true 0]] ``?1 (pair[true 1]) | (pair false 0) false .*
+true[pair[true 0]] ``?1 (pair[true 1]) | (pair false 0) false .*
+
+
+
+2 f x = f(fx)
+
+hw = .h.w
+2 hw
+(\f\x f(fx)) (.h.w)
+(\f
+(f[
+(f[\x
+(f[x[
+(f[x[f(fx
+(f[x[f(fX
+(f[x[f(fX))
+(f[[f(fX)])
+([
+
+

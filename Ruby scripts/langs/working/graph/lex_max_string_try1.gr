@@ -1,0 +1,32 @@
+code in read_char
+data in c1
+label in c1
+
+memory: M alphabet space
+  alphabet: H strings a
+    a: a b memory
+    b: b c memory
+    c: c d memory
+    d: d space memory
+    space: \ endl memory
+    endl: \n end_of_alphabet memory
+    end_of_alphabet: # memory
+  strings: H best s1
+    s1: S end_of_strings c1
+      c1: C c1 a
+    end_of_strings: # memory
+  best: V current s1
+  current: V end_of_memory c1
+  end_of_memory: # memory
+
+read_char: I find_char.turn_left 
+  find_char:
+    turn_left: T go_to_alphabet
+    go_to_alphabet: M turn_right
+    turn_right: T try_next_char here_is_it
+    try_next_char: M try_next_char here_is_it
+    here_is_it: R check_end_of_string.turn_left
+  check_end_of_string.turn_left: T check_end_of_string.go_to_memory
+  check_end_of_string.go_to_memory: M check_end_of_string.go_to_space
+  check_end_of_string.go_to_space: M check_end_of_string.label_space
+  check_end_of_string.label_space: L check_end_of_string.go_to_current

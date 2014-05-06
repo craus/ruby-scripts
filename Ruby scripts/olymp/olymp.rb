@@ -1,0 +1,1 @@
+a=(R=0..(M=8192)).map{(gets||'').split[0].to_i};a=a[1...n=a.index(0)];b=[0]+[]*M;q=0;R.each{|i|c,s=0,M;c+=s if b[c+(s>>=1)]<=a[i] while s>0;b[c+1]=a[i];q=c if q<c};p n-q-1

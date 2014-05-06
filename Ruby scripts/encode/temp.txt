@@ -1,0 +1,16 @@
+def encode f1,f2,input
+  a1 = f1.keys
+  a2 = f2.keys
+  f1 = norm f1.values
+  f2 = norm f2.values
+  f1t = f1
+  f2t = f2
+  output = ''
+  input.each_char do |c|
+    i = a1.index c
+	left = a.first(i).inject :+
+	right = left + f2t[i]
+	
+  end
+  output
+end

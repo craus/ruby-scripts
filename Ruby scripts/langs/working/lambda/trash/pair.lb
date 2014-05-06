@@ -1,0 +1,4 @@
+use bool
+pair x y z = zxy
+first p = p true
+second p = p false

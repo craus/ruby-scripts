@@ -1,0 +1,3 @@
+
+D:\Ruby scripts\langs\braingraph>ruby run.rb reverse.bg     
+.desrever eb ot txet ehT

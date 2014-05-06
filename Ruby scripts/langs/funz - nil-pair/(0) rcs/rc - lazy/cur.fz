@@ -1,0 +1,5 @@
+use std
+main is
+  if eq cin 'A'
+  then cout 'B'
+  else cout 'C'

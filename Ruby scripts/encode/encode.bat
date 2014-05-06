@@ -1,0 +1,1 @@
+ruby encode.rb a1.fs a2.fs input.txt output.txt

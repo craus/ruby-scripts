@@ -1,0 +1,1 @@
+i have parser but for predicate theory without terms - it is not very useful

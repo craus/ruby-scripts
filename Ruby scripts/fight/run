@@ -1,0 +1,5 @@
+puts 'ENTER for continue'
+while print('>') or (s=gets) != "\n" do 
+	system("ruby #{s}") if s.size>1 
+end
+puts 'bye'

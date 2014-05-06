@@ -1,0 +1,103 @@
+use std
+
+accepted = (\x .a.c.c.e.p.t.e.d.\n x)
+failed = (\x .f.a.i.l.e.d.\n x)
+impossible = (\x .n.o.t.\s.s.u.p.p.o.r.t.e.d.\n x)
+. = @
+
+test = (\x
+: = .:.\s x)
+
+main = 
+  test .s.e.l.f: accepted
+	test .g.e.t._.1._.2: get_1_2 accepted failed
+	test .g.e.t._.2._.2: get_2_2 failed accepted
+	test .i: i accepted
+	test .k: k accepted failed 
+  test .s: s k k accepted
+	test .g.i.v.e: give accepted i
+	test .c.o.n.s.t: const accepted failed
+	test .t.r.u.e: true accepted failed
+	test .f.a.l.s.e: false failed accepted
+	test .b.o.t.h: both false failed failed accepted
+	test .e.i.t.h.e.r: either true failed accepted failed
+	test .n.o.t: both (not false) (not (not true)) accepted failed
+	test .b.o.o.l: not (either (not true) (both false true)) accepted failed
+	test .i.f.\s.#.1:
+	  if both true true
+		then accepted
+		else failed
+		end
+	test .i.f.\s.#.2:
+	  if either false false
+		then failed
+		else accepted
+		end
+	test .e.l.s.i.f:
+	  if false
+		then failed
+		elsif false
+		then failed
+		elsif true
+		then accepted
+		else failed
+		end
+	test .t.r.i.p.l.e.x.\s.i.f: impossible
+	test .f.u.n.c.t.i.o.n: 
+	  function \x\y\z
+		  if y
+			then x
+			else z
+		  end
+		end
+		accepted true failed
+	test .p.a.i.r.\s.#.1: pair accepted failed true	
+	test .p.a.i.r.\s.#.2: pair failed accepted false
+	test .f.i.r.s.t: first (pair accepted failed)
+	test .s.e.c.o.n.d: second (pair failed accepted)
+	test .e.m.p.t.y.\s.#.1: empty (list i empty_list) failed accepted
+	test .e.m.p.t.y.\s.#.2: empty empty_list accepted failed
+	test .e.m.p.t.y._.l.i.s.t: empty empty_list accepted failed
+  test .l.i.s.t.\s.#.1: head ` tail ` tail [failed, failed, accepted]
+  test .l.i.s.t.\s.#.2: 
+    function \list
+		  if both (head list) (both (not`head`tail list) (head`tail`tail list))
+			then accepted
+			else failed
+			end
+		end
+		[true, false, true]
+	test .t.w.i.c.e: twice false accepted
+  test .r.e.c.\s.#.1: 
+	  rec function \f \x 
+		  if false
+			then f true
+			else accepted
+			end
+		end
+		false 
+	test .r.e.c.\s.#.2: 
+	  rec function \f \x \y
+		  if both (not x) (not y)
+			then f false true
+			elsif both (not x) y
+			then f true false
+			elsif both x (not y)
+			then f true true
+			else accepted
+			end
+		end
+		false false	
+	test .r.e.c.\s.#.3: 		
+	  rec function \f \x \y
+		  if both (not x) (not y)
+			then accepted
+			elsif both x (not y)
+			then failed
+			else f (not y) x
+			end
+		end
+		true true
+		
+	test .c.l.e.a.n.-.u.p: accepted
+.

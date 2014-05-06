@@ -1,0 +1,17 @@
+use std
+readdigit =
+  ?0 (pair true 0)
+  ``?1 (pair true 1)
+  ``?2 (pair true 2)
+  ``?3 (pair true 3)
+  ``?4 (pair true 4)
+  ``?5 (pair true 5)
+  ``?6 (pair true 6)
+  ``?7 (pair true 7)
+  ``?8 (pair true 8)
+  ``?9 (pair true 9)
+  (pair false 0)
+  
+(second readdigit) .*
+(second readdigit) .!
+

@@ -1,0 +1,72 @@
+# # - comment
+# \s, \t and \n - separators
+# is - keyword for defining function
+# nil - builtin constant
+# pair x y - builtin function, returns data structure of two parts x and y.
+# first p - builtin function, given pair x y, returns x
+# second p - builtin function, given pair x y, returns y
+# if cond x y - builtin function, returns x if cond is pair of something and y otherwise (only "else" case is when cond is nil)
+# bin - builtin function, returns pair nil nil if bit 1 readed from console and nil otherwise
+# bout x - builtin function, write 1 to console if x is not nil and write 0 here otherwise. Always returns pair nil nil.
+# eof - builtin function, returns pair nil nil if input stream is ended and nil otherwise
+# main - builtin identificator of main function, it should not take any arguments.
+
+#std lib:
+
+0 is nil
+1 is pair nil nil
+
+true is 1
+false is 0
+then x is x
+else x is x
+both x y is if x then y else false
+either x y is if x then true else y
+not x is if x then false else true
+neither x y is if x then false else not y
+
+char b0 b1 b2 b3 b4 b5 b6 b7 is pair pair pair b0 b1 pair b2 b3 pair pair b4 b5 pair b6 b7 
+cin is char bin bin bin bin bin bin bin bin
+
+bout2 x is both bout first x bout second x
+bout4 x is both bout2 first x bout2 second x
+cout c is both bout4 first c bout4 second c
+
+'A' = char 0 1 0 0 0 0 0 1
+
+Problem: read one of three bit sequences
+0 - output 1
+01 - no output
+11 - output 0
+
+Solution:
+
+0 is nil
+1 is pair nil nil
+main is 
+	if bin 
+		bout 0 
+		if eof 
+			bout 1 
+			nil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

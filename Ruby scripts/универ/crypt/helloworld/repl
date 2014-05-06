@@ -1,0 +1,5 @@
+if !ARGV[0] then puts :repl; exit end
+ARGV.pop if un = (ARGV.last=='back')
+p = IO.read(ARGV[1]||'key').split.map(&:to_i)
+p = (0...p.size).to_a.map{|i| p.index i} if un
+IO.write ARGV[2]||ARGV[0], IO.read(ARGV[0]).split(//).map{|c| p[c.ord].chr(Encoding::IBM866)}.join

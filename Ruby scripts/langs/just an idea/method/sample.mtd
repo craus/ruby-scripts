@@ -1,0 +1,64 @@
+when var some x
+  when set x some y
+	  when some action x
+		  action y
+
+var x
+# when set x some y
+#   when some action x
+#		  action y
+var y
+# when set y some y1
+#   when some action y
+#		  action y1
+set x 3
+# when some action x
+#   action 3
+set y 2
+# when some action y
+#   action 2
+f x
+# f 3
+f y
+# f 4
+when setx some value
+  set x value
+setx y
+# setx 2 | set x y
+# set x 2 | set x y
+# when some action x
+#   action 3 | set x y
+# set x y
+# when some action x
+#   action y
+
+  
+when some stack is Stack
+  var top of stack
+  set top of stack nil
+	when push some x to stack
+	  local node
+		node is Node
+		var 
+		when some action value node
+		  action x
+	  when some action previous node
+		  action top of stack
+		when some action top of stack
+		  action node
+		
+	  
+			
+		
+	  
+  
+
+when readed 0
+  push 0 to stack
+	read
+when readed 1
+  push 1 to stack
+	read
+when readed nil
+  write reversed stack
+read

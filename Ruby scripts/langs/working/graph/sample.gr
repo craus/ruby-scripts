@@ -1,0 +1,15 @@
+code in new
+data in memory
+label in memory
+
+memory: #
+
+new: N clear
+clear: W read
+read: I new turn
+turn: T back
+back: M back out.turn
+out.turn: T out.move
+out.move: M out end
+out: O out.move
+end: E

@@ -1,0 +1,8 @@
+use std
+main is
+  if bin
+  then both bout 0 bout 0
+  else
+    if eof
+    then bout 1
+    else bout 0

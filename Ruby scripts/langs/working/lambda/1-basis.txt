@@ -1,0 +1,16 @@
+1 = \x xsk
+2 = 11 = (\x xsk)(\x xsk) = (\x xsk)sk = (ssk)k = sskk = sk(kk) = i
+3 = 12 = sk(kk)sk = ks(kks)k = sk
+22 = sk(kk)(sk(kk)) = k(sk(kk))(kk(sk(kk))) = sk(kk) = 2
+21 = 1
+4 = 13 = sksk = kk(sk) = k
+23 = 3
+33 = sk(sk) = i = 2
+32 = ski = i = 2
+31 = sk1 = i = 2
+5 = 14 = ksk = s
+X = \x xsk
+XX = i
+Xi = isk = sk
+X(Xi) = sk(sk) = k
+Xk = ksk = s

@@ -1,0 +1,15 @@
+readed 1 = readed 0
+current 1 = current 0
+reading: read x
+goto readed x
+readed 0: new y
+y data = x
+y next = stack
+stack = y
+goto reading
+readed nil: sym = stack data
+goto current sym
+current 0: write stack data
+stack = stack next
+goto readed nil
+current nil: exit

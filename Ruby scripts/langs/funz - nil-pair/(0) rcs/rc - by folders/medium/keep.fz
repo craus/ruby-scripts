@@ -1,0 +1,29 @@
+use std
+  
+s1 is pair pair pair pair nil 'C' 'B' 'C' 'A'
+s2 is pair pair nil 'A' 'A'
+s3 is pair pair nil 'B' 'A'
+s4 is pair nil 'A'
+s5 is pair pair pair nil 'A' 'A' 'C' 
+
+list is pair pair pair pair pair nil s1 s2 s3 s4 s2
+
+fix x y is both either x 1 y
+
+keep_ a s is 
+  if eq s pair nil 'C'
+  then 1
+  else
+    both cout if in a s then 'A' else 'B'
+    both cout 'C'
+    keep push_back a s
+keep a is keep_ a linein
+
+in a s is 
+  both 
+    a
+    either
+      eq top a s
+      in pop a s
+    
+main is keep nil

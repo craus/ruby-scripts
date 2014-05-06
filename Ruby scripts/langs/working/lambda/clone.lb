@@ -1,0 +1,10 @@
+use std
+
+getc = @ ?a .a `` ?b .b false
+
+clone = (rec (\clone getc clone)) i
+
+main = clone
+
+
+

@@ -1,0 +1,34 @@
+use std
+
+a = true
+b = false
+
+getc = (@ ?a (pair true a) `` ?b (pair true b) (pair false false))
+
+putc = (\c c .a .b i) 
+
+gets = ` rec function \gets \_
+  give getc \c
+	if first c 
+	then list (second c) (gets i)
+	else empty_list
+	end
+end i
+
+puts = rec function \puts \s
+  if empty s
+	then i
+	else putc (head s) puts (tail s)
+	end
+end
+
+last = rec function \last \cur
+  give gets \s
+	if empty s
+	then puts cur
+	else last s
+	end
+end i
+
+main = last
+

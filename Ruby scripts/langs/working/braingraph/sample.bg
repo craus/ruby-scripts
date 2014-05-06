@@ -1,0 +1,22 @@
+use right
+
+backlink = *^!^
+
+init = >256 backlink  * >> !
+readall = *?[!^^*
+
+
+gets = push 
+
+
+
+
+
+# ------ main program
+
+init
+gets
+to_i
+sumdigits
+puts
+

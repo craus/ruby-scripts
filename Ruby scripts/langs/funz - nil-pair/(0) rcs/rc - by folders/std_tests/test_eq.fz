@@ -1,0 +1,5 @@
+use std
+main is 
+  eq 
+    pair pair nil nil nil
+    pair pair nil nil nil 

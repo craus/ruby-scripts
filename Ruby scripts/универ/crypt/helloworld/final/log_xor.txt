@@ -1,0 +1,95 @@
+
+D:\Ruby scripts\crypt\helloworld>ruby hw gen xor 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read key 
+ËÛD²ògÌinø
+
+D:\Ruby scripts\crypt\helloworld>ruby hw gen xor xor 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read key 
+ËÛD²ògÌinø
+
+D:\Ruby scripts\crypt\helloworld>ruby read xor 
+Tı	ZĞ1ˆ§øÅîw
+
+D:\Ruby scripts\crypt\helloworld>ruby hw gen xor xor 5 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read xor 
+Ÿ­	µµ
+
+D:\Ruby scripts\crypt\helloworld>ruby run 
+ENTER for continue
+>bye
+
+D:\Ruby scripts\crypt\helloworld>ruby write x 'The text to be crypted' 
+File x saved.
+
+D:\Ruby scripts\crypt\helloworld>ruby write x2 'Another text to be crypted' 
+File x2 saved.
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+Ÿ£®ë¿®³¿ë¿¤ë©®ë¨¹²»¿®¯
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor  
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor x2 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x2 
+Š¥¤¿£®¹ë¿®³¿ë¿¤ë©®ë¨¹²»¿®¯
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor x2  
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x2 
+Another text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor x xor 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+Ë÷ú¿ëúçë¿ëğ¿ıú¿üíæïëúû
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor x xor  
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor x xor y 
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby read y 
+Ë÷ú¿ëúçë¿ëğ¿ıú¿üíæïëúû
+
+D:\Ruby scripts\crypt\helloworld>ruby hw xor y xor z  
+Hello, world!
+
+D:\Ruby scripts\crypt\helloworld>ruby read x 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby read y 
+Ë÷ú¿ëúçë¿ëğ¿ıú¿üíæïëúû
+
+D:\Ruby scripts\crypt\helloworld>ruby read z 
+The text to be crypted
+
+D:\Ruby scripts\crypt\helloworld>ruby run 
+ENTER for continue
+>bye

@@ -1,0 +1,66 @@
+get1_1 = ``skk
+get2_2 = `k``skk
+get3_3 = `k`k``skk
+get4_4 = `k`k`k``skk
+
+get1_2 = k
+get2_3 = `kk
+get3_4 = `k`kk
+get4_5 = `k`k`kk
+get5_6 = `k`k`k`kk
+get6_7 = `k`k`k`k`kk
+
+get1_3 = ``s`kkk
+get2_4 = `k``s`kkk
+get3_5 = `k`k``s`kkk
+
+i = ``skk
+
+skip1 = `k``skk
+skip2 = k
+skip3 = `s`kk
+
+run2_3_4 = `k`s`kk
+run3_4_5 = `k`k`s`kk
+run2_3_3 = `k`s`k``skk
+
+
+
+run1_get2_2 = `sk
+run2_get3_3 = `k`sk
+run3_get4_4 = `k`k`sk
+
+run1_get2_3 = `s``s`kkk
+run1_3_get3_3 = ``s`kk`sk
+run1_2_get3_3 = `s`k`k``skk
+run1_2_get4_5 = `s`k`k`kk
+run1_2_get5_6 = `s`k`k`k`kk
+run2_3_get4_5 = `k`s`k`kk
+run2_3_get3_4 = `k`s``s`kkk
+
+run4_5_get5_5 = `k`k`k`sk
+run5_6_get6_6 = `k`k`k`k`sk
+
+run1_get3_4 = `s`k`kk
+
+run1_1_get1_1 = ``s`sk``skk
+run2_1_get1_2 = ``s`k`s`skk
+
+run2_4_get4_4 = `k``s`kk`sk
+
+run1_2 = `s`k``skk
+run1_1_2 = ``s``s`kskk
+
+give_k = ``s``skk`kk
+give_k_skip2 = ``s`s`kk`kk
+give_s = ``s``skk`ks
+give_s_skip2 = ``s`s`kk`ks
+
+b1 = ``s`skk
+b2 = ``s`sk`kk
+b3 = `k``s`sk`kk
+b4 = `k``s`skk
+b5 = ``sk``s`skk
+b6 = ``sk``s`sks
+
+

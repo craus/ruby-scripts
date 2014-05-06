@@ -1,0 +1,3 @@
+
+D:\Ruby scripts\langs\brainfuck>ruby run.rb reverse_noendl.bf     
+fdsafdsfdsafdsa8765 4321

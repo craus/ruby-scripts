@@ -1,0 +1,61 @@
+#get
+	get_1_2 = (\x\y x)
+	get_2_2 = (\x i)
+	
+#iks
+  i = (\x x)
+	k = get_1_2
+	s = (\x\y\z xz(yz))
+
+#give
+	give = (\x\f f x)
+
+#const
+	const = k
+	
+#bool
+	true = get_1_2
+	false = get_2_2
+	both = (\x\y x y false)
+	either = (\x\y x true y)
+	not = (\x x false true)
+
+#if
+	# if <cond> then <iftrue> else <iffalse> end
+	# (<cond>) (\_ <iftrue>) (\_ <iffalse>) k
+	if = give i ``(
+	then = )(\_
+	else = )(\_
+	end = )
+	# condition ? if_true : if_false
+		? =
+		: =
+  # if <cond1> then <ifcond1> elsif <cond2> then <ifcond2> elsif <cond3> then <ifcond3> else <ifallfalse> end
+	# (<cond1>) (\_ <ifcond1>) ``(<cond2>) (\_ <ifcond2>) ``(<cond3>) (\_ <ifcond3>) (\_ <ifallfalse>) k
+	elsif = )``(
+	
+#function
+	function = (
+
+#pair
+	pair = (\x\y\z zxy)
+	first = (give get_1_2)
+	second = (give get_2_2)
+
+#list
+	empty_list = (const true)
+	empty = (\l l (\x\y false))
+	head = first
+	tail = second
+	list = pair
+	# [a, b, c] = (list a (list b (list c empty_list))) = `` list a `` list b `` list c empty_list
+		[ = ``list
+		, = ``list
+		] = empty_list
+	
+#twice
+  twice = (\f f f)
+
+#rec 
+  R = (\self\f\x f (self self f) x )
+	rec = `(twice R)

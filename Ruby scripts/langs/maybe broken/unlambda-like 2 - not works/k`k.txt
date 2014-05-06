@@ -1,0 +1,17 @@
+f = k`k
+`fx
+`k`kx
+`kk(x)
+k(k(x))
+
+``fxy
+`k(k(x))y
+k(k(x),y)
+k(x)
+
+```fxyz
+`k(x)z
+k(x,z)
+x
+
+f = k`k: f(x,y,z) = z

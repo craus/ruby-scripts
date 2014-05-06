@@ -1,0 +1,6 @@
+puts :perm; exit if !ARGV[0] 
+ARGV.pop if un = (ARGV.last=='back')
+p,s = IO.read(ARGV[1]||'key').split.map(&:to_i),IO.read(ARGV[0])
+p = (0...p.size).to_a.map{|i| p.index i} if un
+r = (s + 0.chr * (-s.size % p.size)).scan(Regexp.new('.'*p.size,4)).map{|a| p.map{|x| a[x]}}.join
+IO.write ARGV[2]||ARGV[0], un ? r.split(0.chr)[0] : r

@@ -1,0 +1,20 @@
+reading: read x
+if 0 = push
+if 1 = push
+if nil = writing
+next = if x
+push: y = new
+y value = x
+y next = stack
+stack = y
+next = reading
+writing: x = stack value
+if 0 = write
+if 1 = write
+if nil = exit
+next = if x
+write: write x
+stack = stack next
+next = writing
+exit:
+

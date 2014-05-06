@@ -1,0 +1,6 @@
+both x y is if x y nil
+
+main is 
+  both bout nil 
+  bout pair nil nil 
+  

@@ -1,0 +1,5 @@
+use std
+main is
+  if eq linein pair 'A' pair 'B' pair 'C' nil
+  then sout pair 'B' pair 'C' nil
+  else cout 'C'

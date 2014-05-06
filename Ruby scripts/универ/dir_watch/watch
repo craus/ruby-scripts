@@ -1,0 +1,8 @@
+require 'directory_watcher'
+
+dw = DirectoryWatcher.new '.'
+dw.add_observer {|*args| args.each {|event| puts event}}
+
+dw.start
+gets      # when the user hits "enter" the script will terminate
+dw.stop

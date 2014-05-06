@@ -1,0 +1,6 @@
+problem 1. sx = k
+  sxab = kab = a
+	sxab = xb(ab)
+  x = kk
+problem 2. xk = s, xs = k.
+	

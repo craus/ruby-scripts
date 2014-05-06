@@ -1,0 +1,39 @@
+Common running:
+  read the program
+    program's file name is the first command line argument
+	each line is one of the commands, so "\n" is separator
+	  "use <filename1> ... <filenameN>" - space is separator, empty entries ignored
+	    read each of this files recursively
+		ignore if already started to read this file
+	  function definition
+	    "[<name> = ]<body>"
+		  <name> - any string not containing "\n" or spaces
+		  <body> - "<function1> ... <functionN>", where <functionI> is function name
+		    function used as part of body should be built-in or defined earlier in program
+		creates new function as sequence of functions mentioned in <body>
+		if "<name> = " part present, associate <name> with new function
+		  reassociate if <name> already defined
+		    older usage of old value of <name> remains unchanged
+  run the program
+    if no functions defined, just exit
+	last defined function is considered main and run
+
+Start state:
+  there is stack and it contains infinite amount of built-in "apply" function	
+	
+How to run function:
+  each function's body is a sequence of functions
+  read it consequently
+    when readed defined function
+  	  read its body recursively
+	when readed built-in function
+	  push it to stack
+	  while two top elements of stack both not equal to built-in "apply" function
+	    apply second top to top
+		replace three top elements of stack by their application result
+
+How to apply function:
+  "const": returns function returning its argument
+  "sub": "sub x y z" evaluates as "x z apply y z"
+  ".<x>": writes 'x', then returnes argument
+  

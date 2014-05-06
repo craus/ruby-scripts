@@ -1,0 +1,16 @@
+use std
+
+getc = (@ ?a (pair true .a) `` ?b (pair true .b) (pair false false))
+
+reverse = rec function \reverse
+  give getc \c
+	if first c
+	then 
+	  reverse 
+		second c 
+	else 
+	end
+end i
+
+main = reverse
+

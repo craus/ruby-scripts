@@ -1,0 +1,38 @@
+1) k = \x\y x
+2) s = \x\y\z xz(yz)
+3) 11 = kk = \x\y\z y
+4) 12 = ks = \x\y\z\w yw(zw)
+5) 22 = ss = \x\y\z sy(xy)z = \x\y\z yz(xyz)
+6) 21 = sk = \x\y ky(xy) = \x\y y
+7) 13 = k(kk) = \x\y\z\w kkyzw = \x\y\z\w kzw = \x\y\z\w z
+8) 23 = s(kk) = \x\y kky(xy) = \x\y k(xy) = \x\y\z xy
+9) 33 = kk(kk) = k = 1 
+   32 = kks = k = 1
+	 31 = kkk = k = 1
+	 14 = k(ks) = \x\y\z\w\v zv(wv)
+10) 24 = s(ks) = \x\y ksy(xy) = \x\y\z\w s(xy)zw = \x\y\z\w xyw(zw)
+11) 34 = kk(ks) = k = 1
+		44 = ks(ks) = s = 2
+		43 = ks(kk) = s = 2
+		42 = kss = s = 2
+		41 = ksk = s = 2
+		15 = k(ss)
+12) 25 = s(ss)
+13) 35 = kk(ss) = k = 1
+		45 = ks(ss) = s = 2
+		55 = ss(ss)
+14) 54 = ss(ks)
+15) 53 = ss(kk)
+16) 52 = sss
+17) 51 = ssk
+18) 16 = k(sk)
+19) 26 = s(sk)
+20) 36 = kk6 = k = 1
+		46 = ks6 = s = 2
+		56 = ss(sk)
+21) 66 = sk(sk)
+22) 65 = sk(ss)
+23) 64 = sk(ks)
+24) 63 = sk(kk)
+25) 62 = sks
+26) 61 = skk

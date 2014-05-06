@@ -1,0 +1,988 @@
+
+F:\Ruby scripts\langs\funz - nil-pair>ruby run.rb next.fz d    
+main()
+e: cout(next('A'))
+cout(c = next('A'))
+e: both(bout4(first(next('A'))), bout4(second(next('A'))))
+both(x = bout4(first(next('A'))), y = bout4(second(next('A'))))
+e: if(bout4(first(next('A'))), then(bout4(second(next('A')))), else(false))
+e: bout4(first(next('A')))
+bout4(x = first(next('A')))
+e: both(bout2(first(first(next('A')))), bout2(second(first(next('A')))))
+both(x = bout2(first(first(next('A')))), y = bout2(second(first(next('A')))))
+e: if(bout2(first(first(next('A')))), then(bout2(second(first(next('A'))))), else(false))
+e: bout2(first(first(next('A'))))
+bout2(x = first(first(next('A'))))
+e: both(bout(first(first(first(next('A'))))), bout(second(first(first(next('A'))))))
+both(x = bout(first(first(first(next('A'))))), y = bout(second(first(first(next('A'))))))
+e: if(bout(first(first(first(next('A'))))), then(bout(second(first(first(next('A')))))), else(false))
+e: bout(first(first(first(next('A')))))
+e: first(first(first(next('A'))))
+e: first(first(next('A')))
+e: first(next('A'))
+e: next('A')
+next(c = 'A')
+e: if(eq('A', 0), then(pair(1, 0)), else(if(eq('A', 1), then(pair(0, 1)), else(next_('A', next(second('A')))))))
+e: eq('A', 0)
+eq(x = 'A', y = 0)
+e: if('A', if(0, then(both(eq(first('A'), first(0)), eq(second('A'), second(0)))), else(false)), else(not(0)))
+e: 'A'
+'A'()
+e: char(0, 1, 0, 0, 0, 0, 0, 1)
+char(b0 = 0, b1 = 1, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0, b7 = 1)
+e: pair(pair(pair(0, 1), pair(0, 0)), pair(pair(0, 0), pair(0, 1)))
+e: pair(pair(0, 1), pair(0, 0))
+e: pair(0, 1)
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+pair(const nil, const [nil, nil]) = [nil, [nil, nil]]
+e: pair(0, 0)
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+pair(const nil, const nil) = [nil, nil]
+pair(const [nil, [nil, nil]], const [nil, nil]) = [[nil, [nil, nil]], [nil, nil]]
+e: pair(pair(0, 0), pair(0, 1))
+e: pair(0, 0)
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+pair(const nil, const nil) = [nil, nil]
+e: pair(0, 1)
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+pair(const nil, const [nil, nil]) = [nil, [nil, nil]]
+pair(const [nil, nil], const [nil, [nil, nil]]) = [[nil, nil], [nil, [nil, nil]]]
+pair(const [[nil, [nil, nil]], [nil, nil]], const [[nil, nil], [nil, [nil, nil]]]) = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+char(b0 = const nil, b1 = const [nil, nil], b2 = const nil, b3 = const nil, b4 = const nil, b5 = const nil, b6 = const nil, b7 = const [nil, nil]) = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+char(const nil, const [nil, nil], const nil, const nil, const nil, const nil, const nil, const [nil, nil]) = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+'A'() = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+'A' = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+e: if(0, then(both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(0)), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(0)))), else(false))
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const nil)), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const nil)))), const nil) = 
+if(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], const nil, else(not(const nil))) = 
+eq(x = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], y = const nil) = 
+eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], const nil) = 
+e: else(if(eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], 1), then(pair(0, 1)), else(next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))))
+else(x = if(eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], 1), then(pair(0, 1)), else(next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))))
+e: if(eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], 1), then(pair(0, 1)), else(next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))))
+e: eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], 1)
+eq(x = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], y = 1)
+e: if(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], if(1, then(both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(1)), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(1)))), else(false)), else(not(1)))
+e: const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]] = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+e: if(1, then(both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(1)), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(1)))), else(false))
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+e: then(both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil])), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))))
+then(x = both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil])), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))))
+e: both(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil])), eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil])))
+both(x = eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil])), y = eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil])))
+e: if(eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil])), then(eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))), else(false))
+e: eq(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [nil, nil]))
+eq(x = first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), y = first(const [nil, nil]))
+e: if(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), if(first(const [nil, nil]), then(both(eq(first(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), first(first(const [nil, nil]))), eq(second(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), second(first(const [nil, nil]))))), else(false)), else(not(first(const [nil, nil]))))
+e: first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])
+e: const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]] = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]) = [[nil, [nil, nil]], [nil, nil]]
+e: if(first(const [nil, nil]), then(both(eq(first(const [[nil, [nil, nil]], [nil, nil]]), first(first(const [nil, nil]))), eq(second(const [[nil, [nil, nil]], [nil, nil]]), second(first(const [nil, nil]))))), else(false))
+e: first(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+first(const [nil, nil]) = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [[nil, [nil, nil]], [nil, nil]]), first(const nil)), eq(second(const [[nil, [nil, nil]], [nil, nil]]), second(const nil)))), const nil) = 
+if(const [[nil, [nil, nil]], [nil, nil]], const nil, else(not(const nil))) = 
+eq(x = const [[nil, [nil, nil]], [nil, nil]], y = const nil) = 
+eq(const [[nil, [nil, nil]], [nil, nil]], const nil) = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))), const nil) = 
+both(x = const nil, y = eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))) = 
+both(const nil, eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), second(const [nil, nil]))) = 
+then(x = const nil) = 
+then(const nil) = 
+if(const [nil, nil], const nil, else(false)) = 
+if(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], const nil, else(not(const [nil, nil]))) = 
+eq(x = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], y = const [nil, nil]) = 
+eq(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], const [nil, nil]) = 
+e: else(next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))
+else(x = next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))
+e: next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))
+next_(c = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], nextsecond = next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))
+e: if(not(second(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))), then(pair(pair(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))), 0)), else(next_0(next(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), first(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))))
+e: not(second(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))
+not(x = second(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))
+e: if(second(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))), then(false), else(true))
+e: second(next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])))
+e: next(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))
+next(c = second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))
+e: if(eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), 0), then(pair(1, 0)), else(if(eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), 1), then(pair(0, 1)), else(next_(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), next(second(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]))))))))
+e: eq(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), 0)
+eq(x = second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), y = 0)
+e: if(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), if(0, then(both(eq(first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), first(0)), eq(second(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), second(0)))), else(false)), else(not(0)))
+e: second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])
+e: const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]] = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]) = [[nil, nil], [nil, [nil, nil]]]
+e: if(0, then(both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(0)), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(0)))), else(false))
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const nil)), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const nil)))), const nil) = 
+if(const [[nil, nil], [nil, [nil, nil]]], const nil, else(not(const nil))) = 
+eq(x = const [[nil, nil], [nil, [nil, nil]]], y = const nil) = 
+eq(const [[nil, nil], [nil, [nil, nil]]], const nil) = 
+e: else(if(eq(const [[nil, nil], [nil, [nil, nil]]], 1), then(pair(0, 1)), else(next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]]))))))
+else(x = if(eq(const [[nil, nil], [nil, [nil, nil]]], 1), then(pair(0, 1)), else(next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]]))))))
+e: if(eq(const [[nil, nil], [nil, [nil, nil]]], 1), then(pair(0, 1)), else(next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]])))))
+e: eq(const [[nil, nil], [nil, [nil, nil]]], 1)
+eq(x = const [[nil, nil], [nil, [nil, nil]]], y = 1)
+e: if(const [[nil, nil], [nil, [nil, nil]]], if(1, then(both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(1)), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(1)))), else(false)), else(not(1)))
+e: const [[nil, nil], [nil, [nil, nil]]]
+const [[nil, nil], [nil, [nil, nil]]] = [[nil, nil], [nil, [nil, nil]]]
+e: if(1, then(both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(1)), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(1)))), else(false))
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+e: then(both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil])), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))))
+then(x = both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil])), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))))
+e: both(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil])), eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil])))
+both(x = eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil])), y = eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil])))
+e: if(eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil])), then(eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))), else(false))
+e: eq(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [nil, nil]))
+eq(x = first(const [[nil, nil], [nil, [nil, nil]]]), y = first(const [nil, nil]))
+e: if(first(const [[nil, nil], [nil, [nil, nil]]]), if(first(const [nil, nil]), then(both(eq(first(first(const [[nil, nil], [nil, [nil, nil]]])), first(first(const [nil, nil]))), eq(second(first(const [[nil, nil], [nil, [nil, nil]]])), second(first(const [nil, nil]))))), else(false)), else(not(first(const [nil, nil]))))
+e: first(const [[nil, nil], [nil, [nil, nil]]])
+e: const [[nil, nil], [nil, [nil, nil]]]
+const [[nil, nil], [nil, [nil, nil]]] = [[nil, nil], [nil, [nil, nil]]]
+first(const [[nil, nil], [nil, [nil, nil]]]) = [nil, nil]
+e: if(first(const [nil, nil]), then(both(eq(first(const [nil, nil]), first(first(const [nil, nil]))), eq(second(const [nil, nil]), second(first(const [nil, nil]))))), else(false))
+e: first(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+first(const [nil, nil]) = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [nil, nil]), first(const nil)), eq(second(const [nil, nil]), second(const nil)))), const nil) = 
+if(const [nil, nil], const nil, else(not(const nil))) = 
+eq(x = const [nil, nil], y = const nil) = 
+eq(const [nil, nil], const nil) = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))), const nil) = 
+both(x = const nil, y = eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))) = 
+both(const nil, eq(second(const [[nil, nil], [nil, [nil, nil]]]), second(const [nil, nil]))) = 
+then(x = const nil) = 
+then(const nil) = 
+if(const [nil, nil], const nil, else(false)) = 
+if(const [[nil, nil], [nil, [nil, nil]]], const nil, else(not(const [nil, nil]))) = 
+eq(x = const [[nil, nil], [nil, [nil, nil]]], y = const [nil, nil]) = 
+eq(const [[nil, nil], [nil, [nil, nil]]], const [nil, nil]) = 
+e: else(next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]]))))
+else(x = next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]]))))
+e: next_(const [[nil, nil], [nil, [nil, nil]]], next(second(const [[nil, nil], [nil, [nil, nil]]])))
+next_(c = const [[nil, nil], [nil, [nil, nil]]], nextsecond = next(second(const [[nil, nil], [nil, [nil, nil]]])))
+e: if(not(second(next(second(const [[nil, nil], [nil, [nil, nil]]])))), then(pair(pair(first(const [[nil, nil], [nil, [nil, nil]]]), first(next(second(const [[nil, nil], [nil, [nil, nil]]])))), 0)), else(next_0(next(first(const [[nil, nil], [nil, [nil, nil]]])), first(next(second(const [[nil, nil], [nil, [nil, nil]]]))))))
+e: not(second(next(second(const [[nil, nil], [nil, [nil, nil]]]))))
+not(x = second(next(second(const [[nil, nil], [nil, [nil, nil]]]))))
+e: if(second(next(second(const [[nil, nil], [nil, [nil, nil]]]))), then(false), else(true))
+e: second(next(second(const [[nil, nil], [nil, [nil, nil]]])))
+e: next(second(const [[nil, nil], [nil, [nil, nil]]]))
+next(c = second(const [[nil, nil], [nil, [nil, nil]]]))
+e: if(eq(second(const [[nil, nil], [nil, [nil, nil]]]), 0), then(pair(1, 0)), else(if(eq(second(const [[nil, nil], [nil, [nil, nil]]]), 1), then(pair(0, 1)), else(next_(second(const [[nil, nil], [nil, [nil, nil]]]), next(second(second(const [[nil, nil], [nil, [nil, nil]]]))))))))
+e: eq(second(const [[nil, nil], [nil, [nil, nil]]]), 0)
+eq(x = second(const [[nil, nil], [nil, [nil, nil]]]), y = 0)
+e: if(second(const [[nil, nil], [nil, [nil, nil]]]), if(0, then(both(eq(first(second(const [[nil, nil], [nil, [nil, nil]]])), first(0)), eq(second(second(const [[nil, nil], [nil, [nil, nil]]])), second(0)))), else(false)), else(not(0)))
+e: second(const [[nil, nil], [nil, [nil, nil]]])
+e: const [[nil, nil], [nil, [nil, nil]]]
+const [[nil, nil], [nil, [nil, nil]]] = [[nil, nil], [nil, [nil, nil]]]
+second(const [[nil, nil], [nil, [nil, nil]]]) = [nil, [nil, nil]]
+e: if(0, then(both(eq(first(const [nil, [nil, nil]]), first(0)), eq(second(const [nil, [nil, nil]]), second(0)))), else(false))
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [nil, [nil, nil]]), first(const nil)), eq(second(const [nil, [nil, nil]]), second(const nil)))), const nil) = 
+if(const [nil, [nil, nil]], const nil, else(not(const nil))) = 
+eq(x = const [nil, [nil, nil]], y = const nil) = 
+eq(const [nil, [nil, nil]], const nil) = 
+e: else(if(eq(const [nil, [nil, nil]], 1), then(pair(0, 1)), else(next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]]))))))
+else(x = if(eq(const [nil, [nil, nil]], 1), then(pair(0, 1)), else(next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]]))))))
+e: if(eq(const [nil, [nil, nil]], 1), then(pair(0, 1)), else(next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]])))))
+e: eq(const [nil, [nil, nil]], 1)
+eq(x = const [nil, [nil, nil]], y = 1)
+e: if(const [nil, [nil, nil]], if(1, then(both(eq(first(const [nil, [nil, nil]]), first(1)), eq(second(const [nil, [nil, nil]]), second(1)))), else(false)), else(not(1)))
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+e: if(1, then(both(eq(first(const [nil, [nil, nil]]), first(1)), eq(second(const [nil, [nil, nil]]), second(1)))), else(false))
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+e: then(both(eq(first(const [nil, [nil, nil]]), first(const [nil, nil])), eq(second(const [nil, [nil, nil]]), second(const [nil, nil]))))
+then(x = both(eq(first(const [nil, [nil, nil]]), first(const [nil, nil])), eq(second(const [nil, [nil, nil]]), second(const [nil, nil]))))
+e: both(eq(first(const [nil, [nil, nil]]), first(const [nil, nil])), eq(second(const [nil, [nil, nil]]), second(const [nil, nil])))
+both(x = eq(first(const [nil, [nil, nil]]), first(const [nil, nil])), y = eq(second(const [nil, [nil, nil]]), second(const [nil, nil])))
+e: if(eq(first(const [nil, [nil, nil]]), first(const [nil, nil])), then(eq(second(const [nil, [nil, nil]]), second(const [nil, nil]))), else(false))
+e: eq(first(const [nil, [nil, nil]]), first(const [nil, nil]))
+eq(x = first(const [nil, [nil, nil]]), y = first(const [nil, nil]))
+e: if(first(const [nil, [nil, nil]]), if(first(const [nil, nil]), then(both(eq(first(first(const [nil, [nil, nil]])), first(first(const [nil, nil]))), eq(second(first(const [nil, [nil, nil]])), second(first(const [nil, nil]))))), else(false)), else(not(first(const [nil, nil]))))
+e: first(const [nil, [nil, nil]])
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+first(const [nil, [nil, nil]]) = 
+e: else(not(first(const [nil, nil])))
+else(x = not(first(const [nil, nil])))
+e: not(first(const [nil, nil]))
+not(x = first(const [nil, nil]))
+e: if(first(const [nil, nil]), then(false), else(true))
+e: first(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+first(const [nil, nil]) = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, if(const nil, then(both(eq(first(const nil), first(const nil)), eq(second(const nil), second(const nil)))), else(false)), const [nil, nil]) = [nil, nil]
+eq(x = const nil, y = const nil) = [nil, nil]
+eq(const nil, const nil) = [nil, nil]
+e: then(eq(second(const [nil, [nil, nil]]), second(const [nil, nil])))
+then(x = eq(second(const [nil, [nil, nil]]), second(const [nil, nil])))
+e: eq(second(const [nil, [nil, nil]]), second(const [nil, nil]))
+eq(x = second(const [nil, [nil, nil]]), y = second(const [nil, nil]))
+e: if(second(const [nil, [nil, nil]]), if(second(const [nil, nil]), then(both(eq(first(second(const [nil, [nil, nil]])), first(second(const [nil, nil]))), eq(second(second(const [nil, [nil, nil]])), second(second(const [nil, nil]))))), else(false)), else(not(second(const [nil, nil]))))
+e: second(const [nil, [nil, nil]])
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+second(const [nil, [nil, nil]]) = [nil, nil]
+e: if(second(const [nil, nil]), then(both(eq(first(const [nil, nil]), first(second(const [nil, nil]))), eq(second(const [nil, nil]), second(second(const [nil, nil]))))), else(false))
+e: second(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+second(const [nil, nil]) = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [nil, nil]), first(const nil)), eq(second(const [nil, nil]), second(const nil)))), const nil) = 
+if(const [nil, nil], const nil, else(not(const nil))) = 
+eq(x = const [nil, nil], y = const nil) = 
+eq(const [nil, nil], const nil) = 
+then(x = const nil) = 
+then(const nil) = 
+if(const [nil, nil], const nil, else(false)) = 
+both(x = const [nil, nil], y = const nil) = 
+both(const [nil, nil], const nil) = 
+then(x = const nil) = 
+then(const nil) = 
+if(const [nil, nil], const nil, else(false)) = 
+if(const [nil, [nil, nil]], const nil, else(not(const [nil, nil]))) = 
+eq(x = const [nil, [nil, nil]], y = const [nil, nil]) = 
+eq(const [nil, [nil, nil]], const [nil, nil]) = 
+e: else(next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]]))))
+else(x = next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]]))))
+e: next_(const [nil, [nil, nil]], next(second(const [nil, [nil, nil]])))
+next_(c = const [nil, [nil, nil]], nextsecond = next(second(const [nil, [nil, nil]])))
+e: if(not(second(next(second(const [nil, [nil, nil]])))), then(pair(pair(first(const [nil, [nil, nil]]), first(next(second(const [nil, [nil, nil]])))), 0)), else(next_0(next(first(const [nil, [nil, nil]])), first(next(second(const [nil, [nil, nil]]))))))
+e: not(second(next(second(const [nil, [nil, nil]]))))
+not(x = second(next(second(const [nil, [nil, nil]]))))
+e: if(second(next(second(const [nil, [nil, nil]]))), then(false), else(true))
+e: second(next(second(const [nil, [nil, nil]])))
+e: next(second(const [nil, [nil, nil]]))
+next(c = second(const [nil, [nil, nil]]))
+e: if(eq(second(const [nil, [nil, nil]]), 0), then(pair(1, 0)), else(if(eq(second(const [nil, [nil, nil]]), 1), then(pair(0, 1)), else(next_(second(const [nil, [nil, nil]]), next(second(second(const [nil, [nil, nil]]))))))))
+e: eq(second(const [nil, [nil, nil]]), 0)
+eq(x = second(const [nil, [nil, nil]]), y = 0)
+e: if(second(const [nil, [nil, nil]]), if(0, then(both(eq(first(second(const [nil, [nil, nil]])), first(0)), eq(second(second(const [nil, [nil, nil]])), second(0)))), else(false)), else(not(0)))
+e: second(const [nil, [nil, nil]])
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+second(const [nil, [nil, nil]]) = [nil, nil]
+e: if(0, then(both(eq(first(const [nil, nil]), first(0)), eq(second(const [nil, nil]), second(0)))), else(false))
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: else(false)
+else(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+else(x = const nil) = 
+else(const nil) = 
+if(const nil, then(both(eq(first(const [nil, nil]), first(const nil)), eq(second(const [nil, nil]), second(const nil)))), const nil) = 
+if(const [nil, nil], const nil, else(not(const nil))) = 
+eq(x = const [nil, nil], y = const nil) = 
+eq(const [nil, nil], const nil) = 
+e: else(if(eq(const [nil, nil], 1), then(pair(0, 1)), else(next_(const [nil, nil], next(second(const [nil, nil]))))))
+else(x = if(eq(const [nil, nil], 1), then(pair(0, 1)), else(next_(const [nil, nil], next(second(const [nil, nil]))))))
+e: if(eq(const [nil, nil], 1), then(pair(0, 1)), else(next_(const [nil, nil], next(second(const [nil, nil])))))
+e: eq(const [nil, nil], 1)
+eq(x = const [nil, nil], y = 1)
+e: if(const [nil, nil], if(1, then(both(eq(first(const [nil, nil]), first(1)), eq(second(const [nil, nil]), second(1)))), else(false)), else(not(1)))
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+e: if(1, then(both(eq(first(const [nil, nil]), first(1)), eq(second(const [nil, nil]), second(1)))), else(false))
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+e: then(both(eq(first(const [nil, nil]), first(const [nil, nil])), eq(second(const [nil, nil]), second(const [nil, nil]))))
+then(x = both(eq(first(const [nil, nil]), first(const [nil, nil])), eq(second(const [nil, nil]), second(const [nil, nil]))))
+e: both(eq(first(const [nil, nil]), first(const [nil, nil])), eq(second(const [nil, nil]), second(const [nil, nil])))
+both(x = eq(first(const [nil, nil]), first(const [nil, nil])), y = eq(second(const [nil, nil]), second(const [nil, nil])))
+e: if(eq(first(const [nil, nil]), first(const [nil, nil])), then(eq(second(const [nil, nil]), second(const [nil, nil]))), else(false))
+e: eq(first(const [nil, nil]), first(const [nil, nil]))
+eq(x = first(const [nil, nil]), y = first(const [nil, nil]))
+e: if(first(const [nil, nil]), if(first(const [nil, nil]), then(both(eq(first(first(const [nil, nil])), first(first(const [nil, nil]))), eq(second(first(const [nil, nil])), second(first(const [nil, nil]))))), else(false)), else(not(first(const [nil, nil]))))
+e: first(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+first(const [nil, nil]) = 
+e: else(not(first(const [nil, nil])))
+else(x = not(first(const [nil, nil])))
+e: not(first(const [nil, nil]))
+not(x = first(const [nil, nil]))
+e: if(first(const [nil, nil]), then(false), else(true))
+e: first(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+first(const [nil, nil]) = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, if(const nil, then(both(eq(first(const nil), first(const nil)), eq(second(const nil), second(const nil)))), else(false)), const [nil, nil]) = [nil, nil]
+eq(x = const nil, y = const nil) = [nil, nil]
+eq(const nil, const nil) = [nil, nil]
+e: then(eq(second(const [nil, nil]), second(const [nil, nil])))
+then(x = eq(second(const [nil, nil]), second(const [nil, nil])))
+e: eq(second(const [nil, nil]), second(const [nil, nil]))
+eq(x = second(const [nil, nil]), y = second(const [nil, nil]))
+e: if(second(const [nil, nil]), if(second(const [nil, nil]), then(both(eq(first(second(const [nil, nil])), first(second(const [nil, nil]))), eq(second(second(const [nil, nil])), second(second(const [nil, nil]))))), else(false)), else(not(second(const [nil, nil]))))
+e: second(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+second(const [nil, nil]) = 
+e: else(not(second(const [nil, nil])))
+else(x = not(second(const [nil, nil])))
+e: not(second(const [nil, nil]))
+not(x = second(const [nil, nil]))
+e: if(second(const [nil, nil]), then(false), else(true))
+e: second(const [nil, nil])
+e: const [nil, nil]
+const [nil, nil] = [nil, nil]
+second(const [nil, nil]) = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, if(const nil, then(both(eq(first(const nil), first(const nil)), eq(second(const nil), second(const nil)))), else(false)), const [nil, nil]) = [nil, nil]
+eq(x = const nil, y = const nil) = [nil, nil]
+eq(const nil, const nil) = [nil, nil]
+then(x = const [nil, nil]) = [nil, nil]
+then(const [nil, nil]) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(false)) = [nil, nil]
+both(x = const [nil, nil], y = const [nil, nil]) = [nil, nil]
+both(const [nil, nil], const [nil, nil]) = [nil, nil]
+then(x = const [nil, nil]) = [nil, nil]
+then(const [nil, nil]) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(false)) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(not(const [nil, nil]))) = [nil, nil]
+eq(x = const [nil, nil], y = const [nil, nil]) = [nil, nil]
+eq(const [nil, nil], const [nil, nil]) = [nil, nil]
+e: then(pair(0, 1))
+then(x = pair(0, 1))
+e: pair(0, 1)
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+pair(const nil, const [nil, nil]) = [nil, [nil, nil]]
+then(x = const [nil, [nil, nil]]) = [nil, [nil, nil]]
+then(const [nil, [nil, nil]]) = [nil, [nil, nil]]
+if(const [nil, nil], const [nil, [nil, nil]], else(next_(const [nil, nil], next(second(const [nil, nil]))))) = [nil, [nil, nil]]
+else(x = const [nil, [nil, nil]]) = [nil, [nil, nil]]
+else(const [nil, [nil, nil]]) = [nil, [nil, nil]]
+if(const nil, then(pair(1, 0)), const [nil, [nil, nil]]) = [nil, [nil, nil]]
+next(c = const [nil, nil]) = [nil, [nil, nil]]
+next(const [nil, nil]) = [nil, [nil, nil]]
+second(const [nil, [nil, nil]]) = [nil, nil]
+e: then(false)
+then(x = false)
+e: false
+false()
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+false() = 
+false = 
+then(x = const nil) = 
+then(const nil) = 
+if(const [nil, nil], const nil, else(true)) = 
+not(x = const [nil, nil]) = 
+not(const [nil, nil]) = 
+e: else(next_0(next(first(const [nil, [nil, nil]])), first(const [nil, [nil, nil]])))
+else(x = next_0(next(first(const [nil, [nil, nil]])), first(const [nil, [nil, nil]])))
+e: next_0(next(first(const [nil, [nil, nil]])), first(const [nil, [nil, nil]]))
+next_0(nextfirst = next(first(const [nil, [nil, nil]])), firstnextsecond = first(const [nil, [nil, nil]]))
+e: pair(pair(first(next(first(const [nil, [nil, nil]]))), first(const [nil, [nil, nil]])), second(next(first(const [nil, [nil, nil]]))))
+e: pair(first(next(first(const [nil, [nil, nil]]))), first(const [nil, [nil, nil]]))
+e: first(next(first(const [nil, [nil, nil]])))
+e: next(first(const [nil, [nil, nil]]))
+next(c = first(const [nil, [nil, nil]]))
+e: if(eq(first(const [nil, [nil, nil]]), 0), then(pair(1, 0)), else(if(eq(first(const [nil, [nil, nil]]), 1), then(pair(0, 1)), else(next_(first(const [nil, [nil, nil]]), next(second(first(const [nil, [nil, nil]]))))))))
+e: eq(first(const [nil, [nil, nil]]), 0)
+eq(x = first(const [nil, [nil, nil]]), y = 0)
+e: if(first(const [nil, [nil, nil]]), if(0, then(both(eq(first(first(const [nil, [nil, nil]])), first(0)), eq(second(first(const [nil, [nil, nil]])), second(0)))), else(false)), else(not(0)))
+e: first(const [nil, [nil, nil]])
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+first(const [nil, [nil, nil]]) = 
+e: else(not(0))
+else(x = not(0))
+e: not(0)
+not(x = 0)
+e: if(0, then(false), else(true))
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, if(const nil, then(both(eq(first(const nil), first(const nil)), eq(second(const nil), second(const nil)))), else(false)), const [nil, nil]) = [nil, nil]
+eq(x = const nil, y = const nil) = [nil, nil]
+eq(const nil, const nil) = [nil, nil]
+e: then(pair(1, 0))
+then(x = pair(1, 0))
+e: pair(1, 0)
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+pair(const [nil, nil], const nil) = [[nil, nil], nil]
+then(x = const [[nil, nil], nil]) = [[nil, nil], nil]
+then(const [[nil, nil], nil]) = [[nil, nil], nil]
+if(const [nil, nil], const [[nil, nil], nil], else(if(eq(const nil, 1), then(pair(0, 1)), else(next_(const nil, next(second(const nil))))))) = [[nil, nil], nil]
+next(c = const nil) = [[nil, nil], nil]
+next(const nil) = [[nil, nil], nil]
+first(const [[nil, nil], nil]) = [nil, nil]
+e: first(const [nil, [nil, nil]])
+e: const [nil, [nil, nil]]
+const [nil, [nil, nil]] = [nil, [nil, nil]]
+first(const [nil, [nil, nil]]) = 
+pair(const [nil, nil], const nil) = [[nil, nil], nil]
+e: second(const [[nil, nil], nil])
+e: const [[nil, nil], nil]
+const [[nil, nil], nil] = [[nil, nil], nil]
+second(const [[nil, nil], nil]) = 
+pair(const [[nil, nil], nil], const nil) = [[[nil, nil], nil], nil]
+next_0(nextfirst = const [[nil, nil], nil], firstnextsecond = const nil) = [[[nil, nil], nil], nil]
+next_0(const [[nil, nil], nil], const nil) = [[[nil, nil], nil], nil]
+else(x = const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+else(const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+if(const nil, then(pair(pair(first(const [nil, [nil, nil]]), first(const [nil, [nil, nil]])), 0)), const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+next_(c = const [nil, [nil, nil]], nextsecond = const [nil, [nil, nil]]) = [[[nil, nil], nil], nil]
+next_(const [nil, [nil, nil]], const [nil, [nil, nil]]) = [[[nil, nil], nil], nil]
+else(x = const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+else(const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+if(const nil, then(pair(0, 1)), const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+else(x = const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+else(const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+if(const nil, then(pair(1, 0)), const [[[nil, nil], nil], nil]) = [[[nil, nil], nil], nil]
+next(c = const [nil, [nil, nil]]) = [[[nil, nil], nil], nil]
+next(const [nil, [nil, nil]]) = [[[nil, nil], nil], nil]
+second(const [[[nil, nil], nil], nil]) = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+e: then(pair(pair(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [[[nil, nil], nil], nil])), 0))
+then(x = pair(pair(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [[[nil, nil], nil], nil])), 0))
+e: pair(pair(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [[[nil, nil], nil], nil])), 0)
+e: pair(first(const [[nil, nil], [nil, [nil, nil]]]), first(const [[[nil, nil], nil], nil]))
+e: first(const [[nil, nil], [nil, [nil, nil]]])
+e: const [[nil, nil], [nil, [nil, nil]]]
+const [[nil, nil], [nil, [nil, nil]]] = [[nil, nil], [nil, [nil, nil]]]
+first(const [[nil, nil], [nil, [nil, nil]]]) = [nil, nil]
+e: first(const [[[nil, nil], nil], nil])
+e: const [[[nil, nil], nil], nil]
+const [[[nil, nil], nil], nil] = [[[nil, nil], nil], nil]
+first(const [[[nil, nil], nil], nil]) = [[nil, nil], nil]
+pair(const [nil, nil], const [[nil, nil], nil]) = [[nil, nil], [[nil, nil], nil]]
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+pair(const [[nil, nil], [[nil, nil], nil]], const nil) = [[[nil, nil], [[nil, nil], nil]], nil]
+then(x = const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+then(const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+if(const [nil, nil], const [[[nil, nil], [[nil, nil], nil]], nil], else(next_0(next(first(const [[nil, nil], [nil, [nil, nil]]])), first(const [[[nil, nil], nil], nil])))) = [[[nil, nil], [[nil, nil], nil]], nil]
+next_(c = const [[nil, nil], [nil, [nil, nil]]], nextsecond = const [[[nil, nil], nil], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+next_(const [[nil, nil], [nil, [nil, nil]]], const [[[nil, nil], nil], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+else(x = const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+else(const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+if(const nil, then(pair(0, 1)), const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+else(x = const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+else(const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+if(const nil, then(pair(1, 0)), const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[nil, nil], [[nil, nil], nil]], nil]
+next(c = const [[nil, nil], [nil, [nil, nil]]]) = [[[nil, nil], [[nil, nil], nil]], nil]
+next(const [[nil, nil], [nil, [nil, nil]]]) = [[[nil, nil], [[nil, nil], nil]], nil]
+second(const [[[nil, nil], [[nil, nil], nil]], nil]) = 
+e: else(true)
+else(x = true)
+e: true
+true()
+e: 1
+1()
+e: pair(nil, nil)
+e: nil
+nil = 
+e: nil
+nil = 
+pair(const nil, const nil) = [nil, nil]
+1() = [nil, nil]
+1 = [nil, nil]
+true() = [nil, nil]
+true = [nil, nil]
+else(x = const [nil, nil]) = [nil, nil]
+else(const [nil, nil]) = [nil, nil]
+if(const nil, then(false), const [nil, nil]) = [nil, nil]
+not(x = const nil) = [nil, nil]
+not(const nil) = [nil, nil]
+e: then(pair(pair(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [[[nil, nil], [[nil, nil], nil]], nil])), 0))
+then(x = pair(pair(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [[[nil, nil], [[nil, nil], nil]], nil])), 0))
+e: pair(pair(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [[[nil, nil], [[nil, nil], nil]], nil])), 0)
+e: pair(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]), first(const [[[nil, nil], [[nil, nil], nil]], nil]))
+e: first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])
+e: const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]] = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]
+first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]) = [[nil, [nil, nil]], [nil, nil]]
+e: first(const [[[nil, nil], [[nil, nil], nil]], nil])
+e: const [[[nil, nil], [[nil, nil], nil]], nil]
+const [[[nil, nil], [[nil, nil], nil]], nil] = [[[nil, nil], [[nil, nil], nil]], nil]
+first(const [[[nil, nil], [[nil, nil], nil]], nil]) = [[nil, nil], [[nil, nil], nil]]
+pair(const [[nil, [nil, nil]], [nil, nil]], const [[nil, nil], [[nil, nil], nil]]) = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]
+e: 0
+0()
+e: nil
+nil = 
+0() = 
+0 = 
+pair(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], const nil) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+then(x = const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+then(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+if(const [nil, nil], const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil], else(next_0(next(first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]])), first(const [[[nil, nil], [[nil, nil], nil]], nil])))) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+next_(c = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], nextsecond = const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+next_(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]], const [[[nil, nil], [[nil, nil], nil]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+else(x = const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+else(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+if(const nil, then(pair(0, 1)), const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+else(x = const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+else(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+if(const nil, then(pair(1, 0)), const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+next(c = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+next(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [nil, [nil, nil]]]]) = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+first(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]
+first(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]) = [[nil, [nil, nil]], [nil, nil]]
+first(const [[nil, [nil, nil]], [nil, nil]]) = [nil, [nil, nil]]
+write([nil, [nil, nil]])
+bout(const [nil, [nil, nil]]) = [nil, nil]
+e: then(bout(second(const [[nil, [nil, nil]], [nil, nil]])))
+then(x = bout(second(const [[nil, [nil, nil]], [nil, nil]])))
+e: bout(second(const [[nil, [nil, nil]], [nil, nil]]))
+e: second(const [[nil, [nil, nil]], [nil, nil]])
+e: const [[nil, [nil, nil]], [nil, nil]]
+const [[nil, [nil, nil]], [nil, nil]] = [[nil, [nil, nil]], [nil, nil]]
+second(const [[nil, [nil, nil]], [nil, nil]]) = [nil, nil]
+write([nil, nil])
+bout(const [nil, nil]) = [nil, nil]
+then(x = const [nil, nil]) = [nil, nil]
+then(const [nil, nil]) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(false)) = [nil, nil]
+both(x = const [nil, nil], y = const [nil, nil]) = [nil, nil]
+both(const [nil, nil], const [nil, nil]) = [nil, nil]
+bout2(x = const [[nil, [nil, nil]], [nil, nil]]) = [nil, nil]
+bout2(const [[nil, [nil, nil]], [nil, nil]]) = [nil, nil]
+e: then(bout2(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]])))
+then(x = bout2(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]])))
+e: bout2(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))
+bout2(x = second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))
+e: both(bout(first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))), bout(second(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))))
+both(x = bout(first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))), y = bout(second(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))))
+e: if(bout(first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))), then(bout(second(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]])))), else(false))
+e: bout(first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]])))
+e: first(second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]))
+e: second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]])
+e: const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]
+const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]] = [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]
+second(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]) = [[nil, nil], [[nil, nil], nil]]
+first(const [[nil, nil], [[nil, nil], nil]]) = [nil, nil]
+write([nil, nil])
+bout(const [nil, nil]) = [nil, nil]
+e: then(bout(second(const [[nil, nil], [[nil, nil], nil]])))
+then(x = bout(second(const [[nil, nil], [[nil, nil], nil]])))
+e: bout(second(const [[nil, nil], [[nil, nil], nil]]))
+e: second(const [[nil, nil], [[nil, nil], nil]])
+e: const [[nil, nil], [[nil, nil], nil]]
+const [[nil, nil], [[nil, nil], nil]] = [[nil, nil], [[nil, nil], nil]]
+second(const [[nil, nil], [[nil, nil], nil]]) = [[nil, nil], nil]
+write([[nil, nil], nil])
+bout(const [[nil, nil], nil]) = [nil, nil]
+then(x = const [nil, nil]) = [nil, nil]
+then(const [nil, nil]) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(false)) = [nil, nil]
+both(x = const [nil, nil], y = const [nil, nil]) = [nil, nil]
+both(const [nil, nil], const [nil, nil]) = [nil, nil]
+bout2(x = const [[nil, nil], [[nil, nil], nil]]) = [nil, nil]
+bout2(const [[nil, nil], [[nil, nil], nil]]) = [nil, nil]
+then(x = const [nil, nil]) = [nil, nil]
+then(const [nil, nil]) = [nil, nil]
+if(const [nil, nil], const [nil, nil], else(false)) = [nil, nil]
+both(x = const [nil, nil], y = const [nil, nil]) = [nil, nil]
+both(const [nil, nil], const [nil, nil]) = [nil, nil]
+bout4(x = const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]) = [nil, nil]
+bout4(const [[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]]) = [nil, nil]
+e: then(bout4(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))
+then(x = bout4(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))
+e: bout4(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))
+bout4(x = second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))
+e: both(bout2(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))), bout2(second(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))))
+both(x = bout2(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))), y = bout2(second(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))))
+e: if(bout2(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))), then(bout2(second(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))), else(false))
+e: bout2(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))
+bout2(x = first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))
+e: both(bout(first(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))), bout(second(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))))
+both(x = bout(first(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))), y = bout(second(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))))
+e: if(bout(first(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))), then(bout(second(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))))), else(false))
+e: bout(first(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))))
+e: first(first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])))
+e: first(second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]))
+e: second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil])
+e: const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil] = [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]
+second(const [[[[nil, [nil, nil]], [nil, nil]], [[nil, nil], [[nil, nil], nil]]], nil]) = 
+Lang error: Called first(nil)

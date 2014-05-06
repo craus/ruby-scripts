@@ -1,0 +1,18 @@
+h={}
+gets.to_i.times do
+  n,s=gets.split
+  h[s]=[0]*3
+  n.to_i.times do
+    p = gets
+	h[s][
+	  if p[0..4]==p[3..7] && p[0]==p[1] then 0
+	  elsif p[0].next=p[1] && p[3..4].to_i==p[0..1].to_i+22 && p[6..7].to_i==p[3..4].to_i+22 then 1
+	  else 2]+=1	
+  end  
+end
+f=->(x) do
+  
+end
+p "If you want to call a taxi, you should call: #{f[0]}."
+p "If you want to order a pizza, you should call: #{f[1]}."
+p "If you want to go to a cafe with a wonderful girl, you should call: #{f[2]}."

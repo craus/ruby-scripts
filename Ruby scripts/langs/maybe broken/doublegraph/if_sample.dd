@@ -1,0 +1,14 @@
+read
+if: set ` if ` next ` case result value
+  case 'a' = write_3a
+  case 'b' = write_5b
+write_3a: 
+  write 'a'
+  write 'a'
+  write 'a'
+write_5b: 
+  write 'b'
+  write 'b'
+  write 'b'
+  write 'b'
+  write 'b'
